@@ -1,0 +1,987 @@
+Sep 29 04:16:33 symfony [info] {sfPatternRouting} Match route "homepage" (/) for / with parameters array (  'module' => 'default',  'action' => 'index',)
+Sep 29 04:16:33 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Sep 29 04:16:33 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Sep 29 04:16:33 symfony [info] {defaultActions} Call "defaultActions->executeIndex()"
+Sep 29 04:16:33 symfony [info] {sfPHPView} Render "C:\xampp\htdocs\sfprojects\proyectosm\lib\vendor\symfony\lib/controller/default/templates/indexSuccess.php"
+Sep 29 04:16:33 symfony [info] {sfPHPView} Decorate content with "C:\xampp\htdocs\sfprojects\proyectosm\lib\vendor\symfony\lib\controller\default\templates/defaultLayout.php"
+Sep 29 04:16:33 symfony [info] {sfPHPView} Render "C:\xampp\htdocs\sfprojects\proyectosm\lib\vendor\symfony\lib\controller\default\templates/defaultLayout.php"
+Sep 29 04:16:33 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Sep 29 04:16:33 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Sep 29 04:16:33 symfony [info] {sfWebDebugLogger} Configuration 369.53 ms (10)
+Sep 29 04:16:33 symfony [info] {sfWebDebugLogger} Factories 258.68 ms (1)
+Sep 29 04:16:33 symfony [info] {sfWebDebugLogger} Action "default/index" 0.21 ms (1)
+Sep 29 04:16:33 symfony [info] {sfWebDebugLogger} View "Success" for "default/index" 62.42 ms (1)
+Sep 29 04:16:33 symfony [info] {sfWebResponse} Send content (31850 o)
+Sep 29 04:37:07 symfony [info] {sfPatternRouting} Match route "homepage" (/) for / with parameters array (  'module' => 'default',  'action' => 'index',)
+Sep 29 04:37:09 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Sep 29 04:37:09 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Sep 29 04:37:09 symfony [info] {defaultActions} Call "defaultActions->executeIndex()"
+Sep 29 04:37:09 symfony [info] {sfPHPView} Render "C:\xampp\htdocs\sfprojects\proyectosm\lib\vendor\symfony\lib/controller/default/templates/indexSuccess.php"
+Sep 29 04:37:10 symfony [info] {sfPHPView} Decorate content with "C:\xampp\htdocs\sfprojects\proyectosm\lib\vendor\symfony\lib\controller\default\templates/defaultLayout.php"
+Sep 29 04:37:10 symfony [info] {sfPHPView} Render "C:\xampp\htdocs\sfprojects\proyectosm\lib\vendor\symfony\lib\controller\default\templates/defaultLayout.php"
+Sep 29 04:37:10 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Sep 29 04:37:10 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Sep 29 04:37:10 symfony [info] {sfWebDebugLogger} Configuration 1163.08 ms (9)
+Sep 29 04:37:10 symfony [info] {sfWebDebugLogger} Factories 2091.42 ms (1)
+Sep 29 04:37:10 symfony [info] {sfWebDebugLogger} Action "default/index" 0.17 ms (1)
+Sep 29 04:37:10 symfony [info] {sfWebDebugLogger} View "Success" for "default/index" 1383.48 ms (1)
+Sep 29 04:37:11 symfony [info] {sfWebResponse} Send content (31886 o)
+Sep 29 06:42:51 symfony [info] {sfPatternRouting} Match route "homepage" (/) for / with parameters array (  'module' => 'default',  'action' => 'index',)
+Sep 29 06:42:52 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Sep 29 06:42:52 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Sep 29 06:42:52 symfony [info] {defaultActions} Call "defaultActions->executeIndex()"
+Sep 29 06:42:53 symfony [info] {sfPHPView} Render "C:\xampp\htdocs\sfprojects\proyectosm\lib\vendor\symfony\lib/controller/default/templates/indexSuccess.php"
+Sep 29 06:42:53 symfony [info] {sfPHPView} Decorate content with "C:\xampp\htdocs\sfprojects\proyectosm\lib\vendor\symfony\lib\controller\default\templates/defaultLayout.php"
+Sep 29 06:42:53 symfony [info] {sfPHPView} Render "C:\xampp\htdocs\sfprojects\proyectosm\lib\vendor\symfony\lib\controller\default\templates/defaultLayout.php"
+Sep 29 06:42:53 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Sep 29 06:42:53 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Sep 29 06:42:53 symfony [info] {sfWebDebugLogger} Configuration 2094.00 ms (10)
+Sep 29 06:42:53 symfony [info] {sfWebDebugLogger} Factories 3452.06 ms (1)
+Sep 29 06:42:53 symfony [info] {sfWebDebugLogger} Action "default/index" 0.18 ms (1)
+Sep 29 06:42:53 symfony [info] {sfWebDebugLogger} View "Success" for "default/index" 441.58 ms (1)
+Sep 29 06:42:53 symfony [info] {sfWebResponse} Send content (31853 o)
+Sep 29 06:43:03 symfony [info] {sfPatternRouting} Match route "default_index" (/:module) for /proyecto with parameters array (  'module' => 'proyecto',  'action' => 'index',)
+Sep 29 06:43:03 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Sep 29 06:43:03 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Sep 29 06:43:03 symfony [info] {proyectoActions} Call "proyectoActions->executeIndex()"
+Sep 29 06:43:03 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+Sep 29 06:43:03 symfony [info] {Doctrine_Connection_Mysql} query : SELECT p.id AS p__id, p.nombre AS p__nombre, p.descrpicion AS p__descrpicion FROM proyecto p - ()
+Sep 29 06:43:03 symfony [info] {sfPHPView} Render "C:\xampp\htdocs\sfprojects\proyectosm\apps\frontend\modules/proyecto/templates/indexSuccess.php"
+Sep 29 06:43:03 symfony [info] {sfPHPView} Decorate content with "C:\xampp\htdocs\sfprojects\proyectosm\apps\frontend\templates/layout.php"
+Sep 29 06:43:03 symfony [info] {sfPHPView} Render "C:\xampp\htdocs\sfprojects\proyectosm\apps\frontend\templates/layout.php"
+Sep 29 06:43:03 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Sep 29 06:43:03 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Sep 29 06:43:03 symfony [info] {sfWebDebugLogger} Configuration 169.97 ms (10)
+Sep 29 06:43:03 symfony [info] {sfWebDebugLogger} Factories 159.21 ms (1)
+Sep 29 06:43:03 symfony [info] {sfWebDebugLogger} Action "proyecto/index" 43.44 ms (1)
+Sep 29 06:43:03 symfony [info] {sfWebDebugLogger} Database (Doctrine) 0.67 ms (2)
+Sep 29 06:43:03 symfony [info] {sfWebDebugLogger} View "Success" for "proyecto/index" 259.83 ms (1)
+Sep 29 06:43:03 symfony [info] {sfWebResponse} Send content (35494 o)
+Sep 29 06:43:14 symfony [info] {sfPatternRouting} Match route "default_index" (/:module) for /contacto with parameters array (  'module' => 'contacto',  'action' => 'index',)
+Sep 29 06:43:14 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Sep 29 06:43:14 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Sep 29 06:43:14 symfony [info] {contactoActions} Call "contactoActions->executeIndex()"
+Sep 29 06:43:14 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+Sep 29 06:43:14 symfony [info] {Doctrine_Connection_Mysql} query : SELECT c.id AS c__id, c.idproyecto AS c__idproyecto, c.nombre AS c__nombre, c.telefono AS c__telefono, c.pais AS c__pais, c.departamento AS c__departamento, c.municipio AS c__municipio FROM contacto c - ()
+Sep 29 06:43:14 symfony [info] {sfPHPView} Render "C:\xampp\htdocs\sfprojects\proyectosm\apps\frontend\modules/contacto/templates/indexSuccess.php"
+Sep 29 06:43:14 symfony [info] {sfPHPView} Decorate content with "C:\xampp\htdocs\sfprojects\proyectosm\apps\frontend\templates/layout.php"
+Sep 29 06:43:14 symfony [info] {sfPHPView} Render "C:\xampp\htdocs\sfprojects\proyectosm\apps\frontend\templates/layout.php"
+Sep 29 06:43:14 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Sep 29 06:43:14 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Sep 29 06:43:14 symfony [info] {sfWebDebugLogger} Configuration 238.15 ms (10)
+Sep 29 06:43:14 symfony [info] {sfWebDebugLogger} Factories 66.19 ms (1)
+Sep 29 06:43:14 symfony [info] {sfWebDebugLogger} Action "contacto/index" 37.11 ms (1)
+Sep 29 06:43:14 symfony [info] {sfWebDebugLogger} Database (Doctrine) 0.45 ms (2)
+Sep 29 06:43:14 symfony [info] {sfWebDebugLogger} View "Success" for "contacto/index" 105.42 ms (1)
+Sep 29 06:43:14 symfony [info] {sfWebResponse} Send content (36060 o)
+Sep 29 06:43:16 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /contacto/new with parameters array (  'module' => 'contacto',  'action' => 'new',)
+Sep 29 06:43:16 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Sep 29 06:43:16 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Sep 29 06:43:16 symfony [info] {contactoActions} Call "contactoActions->executeNew()"
+Sep 29 06:43:17 symfony [warning] {sfWebDebugLogger}  Warning at C:\xampp\htdocs\sfprojects\proyectosm\lib\form\doctrine\base\BaseContactoForm.class.php on line 24 (file_get_contents(C:\xampp\htdocs\sfprojects\proyectosm\lib\form\doctrine\base../../../../web/js/departamentos.json): failed to open stream: No such file or directory)
+Sep 29 06:43:17 symfony [info] {sfPHPView} Render "C:\xampp\htdocs\sfprojects\proyectosm\apps\frontend\modules/contacto/templates/newSuccess.php"
+Sep 29 06:43:17 symfony [info] {sfPartialView} Render "C:\xampp\htdocs\sfprojects\proyectosm\apps\frontend\modules/contacto/templates/_form.php"
+Sep 29 06:43:17 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+Sep 29 06:43:17 symfony [info] {Doctrine_Connection_Mysql} query : SELECT p.id AS p__id, p.nombre AS p__nombre, p.descrpicion AS p__descrpicion FROM proyecto p - ()
+Sep 29 06:43:17 symfony [warning] {sfWebDebugLogger}  Warning at C:\xampp\htdocs\sfprojects\proyectosm\lib\vendor\symfony\lib\widget\sfWidgetFormChoiceBase.class.php on line 59 (Invalid argument supplied for foreach())
+Sep 29 06:43:17 symfony [info] {sfPHPView} Decorate content with "C:\xampp\htdocs\sfprojects\proyectosm\apps\frontend\templates/layout.php"
+Sep 29 06:43:17 symfony [info] {sfPHPView} Render "C:\xampp\htdocs\sfprojects\proyectosm\apps\frontend\templates/layout.php"
+Sep 29 06:43:17 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Sep 29 06:43:17 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Sep 29 06:43:17 symfony [info] {sfWebDebugLogger} Configuration 23.56 ms (9)
+Sep 29 06:43:17 symfony [info] {sfWebDebugLogger} Factories 57.59 ms (1)
+Sep 29 06:43:17 symfony [info] {sfWebDebugLogger} Action "contacto/new" 41.84 ms (1)
+Sep 29 06:43:17 symfony [info] {sfWebDebugLogger} View "Success" for "contacto/new" 67.09 ms (1)
+Sep 29 06:43:17 symfony [info] {sfWebDebugLogger} Partial "contacto/_form" 49.71 ms (1)
+Sep 29 06:43:17 symfony [info] {sfWebDebugLogger} Database (Doctrine) 0.43 ms (2)
+Sep 29 06:43:17 symfony [info] {sfWebResponse} Send content (42026 o)
+Sep 29 06:43:46 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /contacto/new with parameters array (  'module' => 'contacto',  'action' => 'new',)
+Sep 29 06:43:46 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Sep 29 06:43:46 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Sep 29 06:43:46 symfony [info] {contactoActions} Call "contactoActions->executeNew()"
+Sep 29 06:43:46 symfony [warning] {sfWebDebugLogger}  Warning at C:\xampp\htdocs\sfprojects\proyectosm\lib\form\doctrine\base\BaseContactoForm.class.php on line 24 (file_get_contents(C:\xampp\htdocs\sfprojects\proyectosm\lib\form\doctrine\base/../../../web/js/departamentos.json): failed to open stream: No such file or directory)
+Sep 29 06:43:46 symfony [info] {sfPHPView} Render "C:\xampp\htdocs\sfprojects\proyectosm\apps\frontend\modules/contacto/templates/newSuccess.php"
+Sep 29 06:43:46 symfony [info] {sfPartialView} Render "C:\xampp\htdocs\sfprojects\proyectosm\apps\frontend\modules/contacto/templates/_form.php"
+Sep 29 06:43:46 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+Sep 29 06:43:46 symfony [info] {Doctrine_Connection_Mysql} query : SELECT p.id AS p__id, p.nombre AS p__nombre, p.descrpicion AS p__descrpicion FROM proyecto p - ()
+Sep 29 06:43:46 symfony [warning] {sfWebDebugLogger}  Warning at C:\xampp\htdocs\sfprojects\proyectosm\lib\vendor\symfony\lib\widget\sfWidgetFormChoiceBase.class.php on line 59 (Invalid argument supplied for foreach())
+Sep 29 06:43:46 symfony [info] {sfPHPView} Decorate content with "C:\xampp\htdocs\sfprojects\proyectosm\apps\frontend\templates/layout.php"
+Sep 29 06:43:46 symfony [info] {sfPHPView} Render "C:\xampp\htdocs\sfprojects\proyectosm\apps\frontend\templates/layout.php"
+Sep 29 06:43:46 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Sep 29 06:43:46 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Sep 29 06:43:46 symfony [info] {sfWebDebugLogger} Configuration 30.09 ms (9)
+Sep 29 06:43:46 symfony [info] {sfWebDebugLogger} Factories 63.61 ms (1)
+Sep 29 06:43:46 symfony [info] {sfWebDebugLogger} Action "contacto/new" 99.26 ms (1)
+Sep 29 06:43:46 symfony [info] {sfWebDebugLogger} View "Success" for "contacto/new" 73.38 ms (1)
+Sep 29 06:43:46 symfony [info] {sfWebDebugLogger} Partial "contacto/_form" 43.72 ms (1)
+Sep 29 06:43:46 symfony [info] {sfWebDebugLogger} Database (Doctrine) 0.60 ms (2)
+Sep 29 06:43:46 symfony [info] {sfWebResponse} Send content (42058 o)
+Sep 29 06:44:39 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /contacto/new with parameters array (  'module' => 'contacto',  'action' => 'new',)
+Sep 29 06:44:39 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Sep 29 06:44:39 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Sep 29 06:44:39 symfony [info] {contactoActions} Call "contactoActions->executeNew()"
+Sep 29 06:44:39 symfony [warning] {sfWebDebugLogger}  Warning at C:\xampp\htdocs\sfprojects\proyectosm\lib\form\doctrine\base\BaseContactoForm.class.php on line 24 (file_get_contents(C:\xampp\htdocs\sfprojects\proyectosm\lib\form\doctrine\base\..\..\..\web\js\departamentos.json): failed to open stream: No such file or directory)
+Sep 29 06:44:39 symfony [info] {sfPHPView} Render "C:\xampp\htdocs\sfprojects\proyectosm\apps\frontend\modules/contacto/templates/newSuccess.php"
+Sep 29 06:44:39 symfony [info] {sfPartialView} Render "C:\xampp\htdocs\sfprojects\proyectosm\apps\frontend\modules/contacto/templates/_form.php"
+Sep 29 06:44:39 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+Sep 29 06:44:39 symfony [info] {Doctrine_Connection_Mysql} query : SELECT p.id AS p__id, p.nombre AS p__nombre, p.descrpicion AS p__descrpicion FROM proyecto p - ()
+Sep 29 06:44:39 symfony [warning] {sfWebDebugLogger}  Warning at C:\xampp\htdocs\sfprojects\proyectosm\lib\vendor\symfony\lib\widget\sfWidgetFormChoiceBase.class.php on line 59 (Invalid argument supplied for foreach())
+Sep 29 06:44:39 symfony [info] {sfPHPView} Decorate content with "C:\xampp\htdocs\sfprojects\proyectosm\apps\frontend\templates/layout.php"
+Sep 29 06:44:39 symfony [info] {sfPHPView} Render "C:\xampp\htdocs\sfprojects\proyectosm\apps\frontend\templates/layout.php"
+Sep 29 06:44:39 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Sep 29 06:44:39 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Sep 29 06:44:39 symfony [info] {sfWebDebugLogger} Configuration 34.46 ms (9)
+Sep 29 06:44:39 symfony [info] {sfWebDebugLogger} Factories 78.21 ms (1)
+Sep 29 06:44:39 symfony [info] {sfWebDebugLogger} Action "contacto/new" 63.33 ms (1)
+Sep 29 06:44:39 symfony [info] {sfWebDebugLogger} View "Success" for "contacto/new" 81.75 ms (1)
+Sep 29 06:44:39 symfony [info] {sfWebDebugLogger} Partial "contacto/_form" 55.05 ms (1)
+Sep 29 06:44:39 symfony [info] {sfWebDebugLogger} Database (Doctrine) 0.65 ms (2)
+Sep 29 06:44:39 symfony [info] {sfWebResponse} Send content (42059 o)
+Sep 29 06:45:03 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /contacto/new with parameters array (  'module' => 'contacto',  'action' => 'new',)
+Sep 29 06:45:03 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Sep 29 06:45:03 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Sep 29 06:45:03 symfony [info] {contactoActions} Call "contactoActions->executeNew()"
+Sep 29 06:45:03 symfony [warning] {sfWebDebugLogger}  Warning at C:\xampp\htdocs\sfprojects\proyectosm\lib\form\doctrine\base\BaseContactoForm.class.php on line 24 (file_get_contents(C:\xampp\htdocs\sfprojects\proyectosm\lib\form\doctrine\base): failed to open stream: Permission denied)
+Sep 29 06:45:03 symfony [info] {sfPHPView} Render "C:\xampp\htdocs\sfprojects\proyectosm\apps\frontend\modules/contacto/templates/newSuccess.php"
+Sep 29 06:45:03 symfony [info] {sfPartialView} Render "C:\xampp\htdocs\sfprojects\proyectosm\apps\frontend\modules/contacto/templates/_form.php"
+Sep 29 06:45:04 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+Sep 29 06:45:04 symfony [info] {Doctrine_Connection_Mysql} query : SELECT p.id AS p__id, p.nombre AS p__nombre, p.descrpicion AS p__descrpicion FROM proyecto p - ()
+Sep 29 06:45:04 symfony [warning] {sfWebDebugLogger}  Warning at C:\xampp\htdocs\sfprojects\proyectosm\lib\vendor\symfony\lib\widget\sfWidgetFormChoiceBase.class.php on line 59 (Invalid argument supplied for foreach())
+Sep 29 06:45:04 symfony [info] {sfPHPView} Decorate content with "C:\xampp\htdocs\sfprojects\proyectosm\apps\frontend\templates/layout.php"
+Sep 29 06:45:04 symfony [info] {sfPHPView} Render "C:\xampp\htdocs\sfprojects\proyectosm\apps\frontend\templates/layout.php"
+Sep 29 06:45:04 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Sep 29 06:45:04 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Sep 29 06:45:04 symfony [info] {sfWebDebugLogger} Configuration 21.28 ms (9)
+Sep 29 06:45:04 symfony [info] {sfWebDebugLogger} Factories 57.10 ms (1)
+Sep 29 06:45:04 symfony [info] {sfWebDebugLogger} Action "contacto/new" 42.31 ms (1)
+Sep 29 06:45:04 symfony [info] {sfWebDebugLogger} View "Success" for "contacto/new" 72.50 ms (1)
+Sep 29 06:45:04 symfony [info] {sfWebDebugLogger} Partial "contacto/_form" 43.34 ms (1)
+Sep 29 06:45:04 symfony [info] {sfWebDebugLogger} Database (Doctrine) 0.52 ms (2)
+Sep 29 06:45:04 symfony [info] {sfWebResponse} Send content (42058 o)
+Sep 29 06:46:25 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /contacto/new with parameters array (  'module' => 'contacto',  'action' => 'new',)
+Sep 29 06:46:25 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Sep 29 06:46:25 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Sep 29 06:46:25 symfony [info] {contactoActions} Call "contactoActions->executeNew()"
+Sep 29 06:46:25 symfony [info] {sfPHPView} Render "C:\xampp\htdocs\sfprojects\proyectosm\apps\frontend\modules/contacto/templates/newSuccess.php"
+Sep 29 06:46:25 symfony [info] {sfPartialView} Render "C:\xampp\htdocs\sfprojects\proyectosm\apps\frontend\modules/contacto/templates/_form.php"
+Sep 29 06:46:25 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+Sep 29 06:46:25 symfony [info] {Doctrine_Connection_Mysql} query : SELECT p.id AS p__id, p.nombre AS p__nombre, p.descrpicion AS p__descrpicion FROM proyecto p - ()
+Sep 29 06:46:25 symfony [warning] {sfWebDebugLogger}  Warning at C:\xampp\htdocs\sfprojects\proyectosm\lib\vendor\symfony\lib\widget\sfWidgetFormSchemaFormatter.class.php on line 81 (strtr() expects parameter 1 to be string, array given)
+Sep 29 06:46:25 symfony [warning] {sfWebDebugLogger}  Warning at C:\xampp\htdocs\sfprojects\proyectosm\lib\vendor\symfony\lib\widget\sfWidgetFormSchemaFormatter.class.php on line 81 (strtr() expects parameter 1 to be string, array given)
+Sep 29 06:46:25 symfony [warning] {sfWebDebugLogger}  Warning at C:\xampp\htdocs\sfprojects\proyectosm\lib\vendor\symfony\lib\widget\sfWidgetFormSchemaFormatter.class.php on line 81 (strtr() expects parameter 1 to be string, array given)
+Sep 29 06:46:25 symfony [warning] {sfWebDebugLogger}  Warning at C:\xampp\htdocs\sfprojects\proyectosm\lib\vendor\symfony\lib\widget\sfWidgetFormSchemaFormatter.class.php on line 81 (strtr() expects parameter 1 to be string, array given)
+Sep 29 06:46:25 symfony [warning] {sfWebDebugLogger}  Warning at C:\xampp\htdocs\sfprojects\proyectosm\lib\vendor\symfony\lib\widget\sfWidgetFormSchemaFormatter.class.php on line 81 (strtr() expects parameter 1 to be string, array given)
+Sep 29 06:46:25 symfony [warning] {sfWebDebugLogger}  Warning at C:\xampp\htdocs\sfprojects\proyectosm\lib\vendor\symfony\lib\widget\sfWidgetFormSchemaFormatter.class.php on line 81 (strtr() expects parameter 1 to be string, array given)
+Sep 29 06:46:25 symfony [warning] {sfWebDebugLogger}  Warning at C:\xampp\htdocs\sfprojects\proyectosm\lib\vendor\symfony\lib\widget\sfWidgetFormSchemaFormatter.class.php on line 81 (strtr() expects parameter 1 to be string, array given)
+Sep 29 06:46:25 symfony [warning] {sfWebDebugLogger}  Warning at C:\xampp\htdocs\sfprojects\proyectosm\lib\vendor\symfony\lib\widget\sfWidgetFormSchemaFormatter.class.php on line 81 (strtr() expects parameter 1 to be string, array given)
+Sep 29 06:46:25 symfony [warning] {sfWebDebugLogger}  Warning at C:\xampp\htdocs\sfprojects\proyectosm\lib\vendor\symfony\lib\widget\sfWidgetFormSchemaFormatter.class.php on line 81 (strtr() expects parameter 1 to be string, array given)
+Sep 29 06:46:25 symfony [warning] {sfWebDebugLogger}  Warning at C:\xampp\htdocs\sfprojects\proyectosm\lib\vendor\symfony\lib\widget\sfWidgetFormSchemaFormatter.class.php on line 81 (strtr() expects parameter 1 to be string, array given)
+Sep 29 06:46:25 symfony [warning] {sfWebDebugLogger}  Warning at C:\xampp\htdocs\sfprojects\proyectosm\lib\vendor\symfony\lib\widget\sfWidgetFormSchemaFormatter.class.php on line 81 (strtr() expects parameter 1 to be string, array given)
+Sep 29 06:46:25 symfony [warning] {sfWebDebugLogger}  Warning at C:\xampp\htdocs\sfprojects\proyectosm\lib\vendor\symfony\lib\widget\sfWidgetFormSchemaFormatter.class.php on line 81 (strtr() expects parameter 1 to be string, array given)
+Sep 29 06:46:25 symfony [warning] {sfWebDebugLogger}  Warning at C:\xampp\htdocs\sfprojects\proyectosm\lib\vendor\symfony\lib\widget\sfWidgetFormSchemaFormatter.class.php on line 81 (strtr() expects parameter 1 to be string, array given)
+Sep 29 06:46:25 symfony [warning] {sfWebDebugLogger}  Warning at C:\xampp\htdocs\sfprojects\proyectosm\lib\vendor\symfony\lib\widget\sfWidgetFormSchemaFormatter.class.php on line 81 (strtr() expects parameter 1 to be string, array given)
+Sep 29 06:46:25 symfony [warning] {sfWebDebugLogger}  Warning at C:\xampp\htdocs\sfprojects\proyectosm\lib\vendor\symfony\lib\widget\sfWidgetFormSchemaFormatter.class.php on line 81 (strtr() expects parameter 1 to be string, array given)
+Sep 29 06:46:25 symfony [warning] {sfWebDebugLogger}  Warning at C:\xampp\htdocs\sfprojects\proyectosm\lib\vendor\symfony\lib\widget\sfWidgetFormSchemaFormatter.class.php on line 81 (strtr() expects parameter 1 to be string, array given)
+Sep 29 06:46:25 symfony [warning] {sfWebDebugLogger}  Warning at C:\xampp\htdocs\sfprojects\proyectosm\lib\vendor\symfony\lib\widget\sfWidgetFormSchemaFormatter.class.php on line 81 (strtr() expects parameter 1 to be string, array given)
+Sep 29 06:46:25 symfony [warning] {sfWebDebugLogger}  Warning at C:\xampp\htdocs\sfprojects\proyectosm\lib\vendor\symfony\lib\widget\sfWidgetFormSchemaFormatter.class.php on line 81 (strtr() expects parameter 1 to be string, array given)
+Sep 29 06:46:25 symfony [warning] {sfWebDebugLogger}  Warning at C:\xampp\htdocs\sfprojects\proyectosm\lib\vendor\symfony\lib\widget\sfWidgetFormSchemaFormatter.class.php on line 81 (strtr() expects parameter 1 to be string, array given)
+Sep 29 06:46:25 symfony [warning] {sfWebDebugLogger}  Warning at C:\xampp\htdocs\sfprojects\proyectosm\lib\vendor\symfony\lib\widget\sfWidgetFormSchemaFormatter.class.php on line 81 (strtr() expects parameter 1 to be string, array given)
+Sep 29 06:46:25 symfony [warning] {sfWebDebugLogger}  Warning at C:\xampp\htdocs\sfprojects\proyectosm\lib\vendor\symfony\lib\widget\sfWidgetFormSchemaFormatter.class.php on line 81 (strtr() expects parameter 1 to be string, array given)
+Sep 29 06:46:25 symfony [warning] {sfWebDebugLogger}  Warning at C:\xampp\htdocs\sfprojects\proyectosm\lib\vendor\symfony\lib\widget\sfWidgetFormSchemaFormatter.class.php on line 81 (strtr() expects parameter 1 to be string, array given)
+Sep 29 06:46:25 symfony [warning] {sfWebDebugLogger}  Warning at C:\xampp\htdocs\sfprojects\proyectosm\lib\vendor\symfony\lib\widget\sfWidgetFormSchemaFormatter.class.php on line 81 (strtr() expects parameter 1 to be string, array given)
+Sep 29 06:46:25 symfony [warning] {sfWebDebugLogger}  Warning at C:\xampp\htdocs\sfprojects\proyectosm\lib\vendor\symfony\lib\widget\sfWidgetFormSchemaFormatter.class.php on line 81 (strtr() expects parameter 1 to be string, array given)
+Sep 29 06:46:25 symfony [warning] {sfWebDebugLogger}  Warning at C:\xampp\htdocs\sfprojects\proyectosm\lib\vendor\symfony\lib\widget\sfWidgetFormSchemaFormatter.class.php on line 81 (strtr() expects parameter 1 to be string, array given)
+Sep 29 06:46:25 symfony [warning] {sfWebDebugLogger}  Warning at C:\xampp\htdocs\sfprojects\proyectosm\lib\vendor\symfony\lib\widget\sfWidgetFormSchemaFormatter.class.php on line 81 (strtr() expects parameter 1 to be string, array given)
+Sep 29 06:46:25 symfony [warning] {sfWebDebugLogger}  Warning at C:\xampp\htdocs\sfprojects\proyectosm\lib\vendor\symfony\lib\widget\sfWidgetFormSchemaFormatter.class.php on line 81 (strtr() expects parameter 1 to be string, array given)
+Sep 29 06:46:25 symfony [warning] {sfWebDebugLogger}  Warning at C:\xampp\htdocs\sfprojects\proyectosm\lib\vendor\symfony\lib\widget\sfWidgetFormSchemaFormatter.class.php on line 81 (strtr() expects parameter 1 to be string, array given)
+Sep 29 06:46:25 symfony [warning] {sfWebDebugLogger}  Warning at C:\xampp\htdocs\sfprojects\proyectosm\lib\vendor\symfony\lib\widget\sfWidgetFormSchemaFormatter.class.php on line 81 (strtr() expects parameter 1 to be string, array given)
+Sep 29 06:46:25 symfony [warning] {sfWebDebugLogger}  Warning at C:\xampp\htdocs\sfprojects\proyectosm\lib\vendor\symfony\lib\widget\sfWidgetFormSchemaFormatter.class.php on line 81 (strtr() expects parameter 1 to be string, array given)
+Sep 29 06:46:25 symfony [warning] {sfWebDebugLogger}  Warning at C:\xampp\htdocs\sfprojects\proyectosm\lib\vendor\symfony\lib\widget\sfWidgetFormSchemaFormatter.class.php on line 81 (strtr() expects parameter 1 to be string, array given)
+Sep 29 06:46:25 symfony [warning] {sfWebDebugLogger}  Warning at C:\xampp\htdocs\sfprojects\proyectosm\lib\vendor\symfony\lib\widget\sfWidgetFormSchemaFormatter.class.php on line 81 (strtr() expects parameter 1 to be string, array given)
+Sep 29 06:46:25 symfony [info] {sfPHPView} Decorate content with "C:\xampp\htdocs\sfprojects\proyectosm\apps\frontend\templates/layout.php"
+Sep 29 06:46:25 symfony [info] {sfPHPView} Render "C:\xampp\htdocs\sfprojects\proyectosm\apps\frontend\templates/layout.php"
+Sep 29 06:46:25 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Sep 29 06:46:25 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Sep 29 06:46:25 symfony [info] {sfWebDebugLogger} Configuration 25.54 ms (9)
+Sep 29 06:46:25 symfony [info] {sfWebDebugLogger} Factories 59.06 ms (1)
+Sep 29 06:46:25 symfony [info] {sfWebDebugLogger} Action "contacto/new" 47.48 ms (1)
+Sep 29 06:46:25 symfony [info] {sfWebDebugLogger} View "Success" for "contacto/new" 126.61 ms (1)
+Sep 29 06:46:25 symfony [info] {sfWebDebugLogger} Partial "contacto/_form" 103.18 ms (1)
+Sep 29 06:46:25 symfony [info] {sfWebDebugLogger} Database (Doctrine) 0.45 ms (2)
+Sep 29 06:46:25 symfony [info] {sfWebResponse} Send content (53474 o)
+Sep 29 06:48:04 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /contacto/new with parameters array (  'module' => 'contacto',  'action' => 'new',)
+Sep 29 06:48:04 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Sep 29 06:48:04 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Sep 29 06:48:04 symfony [info] {contactoActions} Call "contactoActions->executeNew()"
+Sep 29 06:48:04 symfony [info] {sfPHPView} Render "C:\xampp\htdocs\sfprojects\proyectosm\apps\frontend\modules/contacto/templates/newSuccess.php"
+Sep 29 06:48:04 symfony [info] {sfPartialView} Render "C:\xampp\htdocs\sfprojects\proyectosm\apps\frontend\modules/contacto/templates/_form.php"
+Sep 29 06:48:04 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+Sep 29 06:48:04 symfony [info] {Doctrine_Connection_Mysql} query : SELECT p.id AS p__id, p.nombre AS p__nombre, p.descrpicion AS p__descrpicion FROM proyecto p - ()
+Sep 29 06:48:04 symfony [warning] {sfWebDebugLogger}  Warning at C:\xampp\htdocs\sfprojects\proyectosm\lib\vendor\symfony\lib\widget\sfWidgetFormSchemaFormatter.class.php on line 81 (strtr() expects parameter 1 to be string, array given)
+Sep 29 06:48:04 symfony [warning] {sfWebDebugLogger}  Warning at C:\xampp\htdocs\sfprojects\proyectosm\lib\vendor\symfony\lib\widget\sfWidgetFormSchemaFormatter.class.php on line 81 (strtr() expects parameter 1 to be string, array given)
+Sep 29 06:48:04 symfony [warning] {sfWebDebugLogger}  Warning at C:\xampp\htdocs\sfprojects\proyectosm\lib\vendor\symfony\lib\widget\sfWidgetFormSchemaFormatter.class.php on line 81 (strtr() expects parameter 1 to be string, array given)
+Sep 29 06:48:04 symfony [warning] {sfWebDebugLogger}  Warning at C:\xampp\htdocs\sfprojects\proyectosm\lib\vendor\symfony\lib\widget\sfWidgetFormSchemaFormatter.class.php on line 81 (strtr() expects parameter 1 to be string, array given)
+Sep 29 06:48:04 symfony [warning] {sfWebDebugLogger}  Warning at C:\xampp\htdocs\sfprojects\proyectosm\lib\vendor\symfony\lib\widget\sfWidgetFormSchemaFormatter.class.php on line 81 (strtr() expects parameter 1 to be string, array given)
+Sep 29 06:48:04 symfony [warning] {sfWebDebugLogger}  Warning at C:\xampp\htdocs\sfprojects\proyectosm\lib\vendor\symfony\lib\widget\sfWidgetFormSchemaFormatter.class.php on line 81 (strtr() expects parameter 1 to be string, array given)
+Sep 29 06:48:04 symfony [warning] {sfWebDebugLogger}  Warning at C:\xampp\htdocs\sfprojects\proyectosm\lib\vendor\symfony\lib\widget\sfWidgetFormSchemaFormatter.class.php on line 81 (strtr() expects parameter 1 to be string, array given)
+Sep 29 06:48:04 symfony [warning] {sfWebDebugLogger}  Warning at C:\xampp\htdocs\sfprojects\proyectosm\lib\vendor\symfony\lib\widget\sfWidgetFormSchemaFormatter.class.php on line 81 (strtr() expects parameter 1 to be string, array given)
+Sep 29 06:48:04 symfony [warning] {sfWebDebugLogger}  Warning at C:\xampp\htdocs\sfprojects\proyectosm\lib\vendor\symfony\lib\widget\sfWidgetFormSchemaFormatter.class.php on line 81 (strtr() expects parameter 1 to be string, array given)
+Sep 29 06:48:04 symfony [warning] {sfWebDebugLogger}  Warning at C:\xampp\htdocs\sfprojects\proyectosm\lib\vendor\symfony\lib\widget\sfWidgetFormSchemaFormatter.class.php on line 81 (strtr() expects parameter 1 to be string, array given)
+Sep 29 06:48:04 symfony [warning] {sfWebDebugLogger}  Warning at C:\xampp\htdocs\sfprojects\proyectosm\lib\vendor\symfony\lib\widget\sfWidgetFormSchemaFormatter.class.php on line 81 (strtr() expects parameter 1 to be string, array given)
+Sep 29 06:48:04 symfony [warning] {sfWebDebugLogger}  Warning at C:\xampp\htdocs\sfprojects\proyectosm\lib\vendor\symfony\lib\widget\sfWidgetFormSchemaFormatter.class.php on line 81 (strtr() expects parameter 1 to be string, array given)
+Sep 29 06:48:04 symfony [warning] {sfWebDebugLogger}  Warning at C:\xampp\htdocs\sfprojects\proyectosm\lib\vendor\symfony\lib\widget\sfWidgetFormSchemaFormatter.class.php on line 81 (strtr() expects parameter 1 to be string, array given)
+Sep 29 06:48:04 symfony [warning] {sfWebDebugLogger}  Warning at C:\xampp\htdocs\sfprojects\proyectosm\lib\vendor\symfony\lib\widget\sfWidgetFormSchemaFormatter.class.php on line 81 (strtr() expects parameter 1 to be string, array given)
+Sep 29 06:48:04 symfony [warning] {sfWebDebugLogger}  Warning at C:\xampp\htdocs\sfprojects\proyectosm\lib\vendor\symfony\lib\widget\sfWidgetFormSchemaFormatter.class.php on line 81 (strtr() expects parameter 1 to be string, array given)
+Sep 29 06:48:04 symfony [warning] {sfWebDebugLogger}  Warning at C:\xampp\htdocs\sfprojects\proyectosm\lib\vendor\symfony\lib\widget\sfWidgetFormSchemaFormatter.class.php on line 81 (strtr() expects parameter 1 to be string, array given)
+Sep 29 06:48:04 symfony [warning] {sfWebDebugLogger}  Warning at C:\xampp\htdocs\sfprojects\proyectosm\lib\vendor\symfony\lib\widget\sfWidgetFormSchemaFormatter.class.php on line 81 (strtr() expects parameter 1 to be string, array given)
+Sep 29 06:48:04 symfony [warning] {sfWebDebugLogger}  Warning at C:\xampp\htdocs\sfprojects\proyectosm\lib\vendor\symfony\lib\widget\sfWidgetFormSchemaFormatter.class.php on line 81 (strtr() expects parameter 1 to be string, array given)
+Sep 29 06:48:04 symfony [warning] {sfWebDebugLogger}  Warning at C:\xampp\htdocs\sfprojects\proyectosm\lib\vendor\symfony\lib\widget\sfWidgetFormSchemaFormatter.class.php on line 81 (strtr() expects parameter 1 to be string, array given)
+Sep 29 06:48:04 symfony [warning] {sfWebDebugLogger}  Warning at C:\xampp\htdocs\sfprojects\proyectosm\lib\vendor\symfony\lib\widget\sfWidgetFormSchemaFormatter.class.php on line 81 (strtr() expects parameter 1 to be string, array given)
+Sep 29 06:48:04 symfony [warning] {sfWebDebugLogger}  Warning at C:\xampp\htdocs\sfprojects\proyectosm\lib\vendor\symfony\lib\widget\sfWidgetFormSchemaFormatter.class.php on line 81 (strtr() expects parameter 1 to be string, array given)
+Sep 29 06:48:04 symfony [warning] {sfWebDebugLogger}  Warning at C:\xampp\htdocs\sfprojects\proyectosm\lib\vendor\symfony\lib\widget\sfWidgetFormSchemaFormatter.class.php on line 81 (strtr() expects parameter 1 to be string, array given)
+Sep 29 06:48:04 symfony [warning] {sfWebDebugLogger}  Warning at C:\xampp\htdocs\sfprojects\proyectosm\lib\vendor\symfony\lib\widget\sfWidgetFormSchemaFormatter.class.php on line 81 (strtr() expects parameter 1 to be string, array given)
+Sep 29 06:48:04 symfony [warning] {sfWebDebugLogger}  Warning at C:\xampp\htdocs\sfprojects\proyectosm\lib\vendor\symfony\lib\widget\sfWidgetFormSchemaFormatter.class.php on line 81 (strtr() expects parameter 1 to be string, array given)
+Sep 29 06:48:04 symfony [warning] {sfWebDebugLogger}  Warning at C:\xampp\htdocs\sfprojects\proyectosm\lib\vendor\symfony\lib\widget\sfWidgetFormSchemaFormatter.class.php on line 81 (strtr() expects parameter 1 to be string, array given)
+Sep 29 06:48:04 symfony [warning] {sfWebDebugLogger}  Warning at C:\xampp\htdocs\sfprojects\proyectosm\lib\vendor\symfony\lib\widget\sfWidgetFormSchemaFormatter.class.php on line 81 (strtr() expects parameter 1 to be string, array given)
+Sep 29 06:48:04 symfony [warning] {sfWebDebugLogger}  Warning at C:\xampp\htdocs\sfprojects\proyectosm\lib\vendor\symfony\lib\widget\sfWidgetFormSchemaFormatter.class.php on line 81 (strtr() expects parameter 1 to be string, array given)
+Sep 29 06:48:04 symfony [warning] {sfWebDebugLogger}  Warning at C:\xampp\htdocs\sfprojects\proyectosm\lib\vendor\symfony\lib\widget\sfWidgetFormSchemaFormatter.class.php on line 81 (strtr() expects parameter 1 to be string, array given)
+Sep 29 06:48:04 symfony [warning] {sfWebDebugLogger}  Warning at C:\xampp\htdocs\sfprojects\proyectosm\lib\vendor\symfony\lib\widget\sfWidgetFormSchemaFormatter.class.php on line 81 (strtr() expects parameter 1 to be string, array given)
+Sep 29 06:48:04 symfony [warning] {sfWebDebugLogger}  Warning at C:\xampp\htdocs\sfprojects\proyectosm\lib\vendor\symfony\lib\widget\sfWidgetFormSchemaFormatter.class.php on line 81 (strtr() expects parameter 1 to be string, array given)
+Sep 29 06:48:04 symfony [warning] {sfWebDebugLogger}  Warning at C:\xampp\htdocs\sfprojects\proyectosm\lib\vendor\symfony\lib\widget\sfWidgetFormSchemaFormatter.class.php on line 81 (strtr() expects parameter 1 to be string, array given)
+Sep 29 06:48:04 symfony [warning] {sfWebDebugLogger}  Warning at C:\xampp\htdocs\sfprojects\proyectosm\lib\vendor\symfony\lib\widget\sfWidgetFormSchemaFormatter.class.php on line 81 (strtr() expects parameter 1 to be string, array given)
+Sep 29 06:48:04 symfony [info] {sfPHPView} Decorate content with "C:\xampp\htdocs\sfprojects\proyectosm\apps\frontend\templates/layout.php"
+Sep 29 06:48:04 symfony [info] {sfPHPView} Render "C:\xampp\htdocs\sfprojects\proyectosm\apps\frontend\templates/layout.php"
+Sep 29 06:48:04 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Sep 29 06:48:04 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Sep 29 06:48:04 symfony [info] {sfWebDebugLogger} Configuration 22.49 ms (9)
+Sep 29 06:48:04 symfony [info] {sfWebDebugLogger} Factories 52.74 ms (1)
+Sep 29 06:48:04 symfony [info] {sfWebDebugLogger} Action "contacto/new" 42.51 ms (1)
+Sep 29 06:48:04 symfony [info] {sfWebDebugLogger} View "Success" for "contacto/new" 86.19 ms (1)
+Sep 29 06:48:04 symfony [info] {sfWebDebugLogger} Partial "contacto/_form" 60.77 ms (1)
+Sep 29 06:48:04 symfony [info] {sfWebDebugLogger} Database (Doctrine) 0.56 ms (2)
+Sep 29 06:48:04 symfony [info] {sfWebResponse} Send content (53470 o)
+Sep 29 06:54:01 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /contacto/new with parameters array (  'module' => 'contacto',  'action' => 'new',)
+Sep 29 06:54:02 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Sep 29 06:54:02 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Sep 29 06:54:02 symfony [info] {contactoActions} Call "contactoActions->executeNew()"
+Sep 29 06:54:03 symfony [info] {sfPHPView} Render "C:\xampp\htdocs\sfprojects\proyectosm\apps\frontend\modules/contacto/templates/newSuccess.php"
+Sep 29 06:54:03 symfony [info] {sfPartialView} Render "C:\xampp\htdocs\sfprojects\proyectosm\apps\frontend\modules/contacto/templates/_form.php"
+Sep 29 06:54:03 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+Sep 29 06:54:03 symfony [info] {Doctrine_Connection_Mysql} query : SELECT p.id AS p__id, p.nombre AS p__nombre, p.descrpicion AS p__descrpicion FROM proyecto p - ()
+Sep 29 06:54:04 symfony [info] {sfPHPView} Decorate content with "C:\xampp\htdocs\sfprojects\proyectosm\apps\frontend\templates/layout.php"
+Sep 29 06:54:04 symfony [info] {sfPHPView} Render "C:\xampp\htdocs\sfprojects\proyectosm\apps\frontend\templates/layout.php"
+Sep 29 06:54:04 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Sep 29 06:54:04 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Sep 29 06:54:04 symfony [info] {sfWebDebugLogger} Configuration 27.13 ms (9)
+Sep 29 06:54:04 symfony [info] {sfWebDebugLogger} Factories 1222.03 ms (1)
+Sep 29 06:54:04 symfony [info] {sfWebDebugLogger} Action "contacto/new" 705.37 ms (1)
+Sep 29 06:54:04 symfony [info] {sfWebDebugLogger} View "Success" for "contacto/new" 1344.96 ms (1)
+Sep 29 06:54:04 symfony [info] {sfWebDebugLogger} Partial "contacto/_form" 992.27 ms (1)
+Sep 29 06:54:04 symfony [info] {sfWebDebugLogger} Database (Doctrine) 1.00 ms (2)
+Sep 29 06:54:04 symfony [info] {sfWebResponse} Send content (43182 o)
+Sep 29 06:56:53 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /contacto/new with parameters array (  'module' => 'contacto',  'action' => 'new',)
+Sep 29 06:56:53 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Sep 29 06:56:53 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Sep 29 06:56:53 symfony [info] {contactoActions} Call "contactoActions->executeNew()"
+Sep 29 06:56:54 symfony [info] {sfPHPView} Render "C:\xampp\htdocs\sfprojects\proyectosm\apps\frontend\modules/contacto/templates/newSuccess.php"
+Sep 29 06:56:54 symfony [info] {sfPartialView} Render "C:\xampp\htdocs\sfprojects\proyectosm\apps\frontend\modules/contacto/templates/_form.php"
+Sep 29 06:56:54 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+Sep 29 06:56:54 symfony [info] {Doctrine_Connection_Mysql} query : SELECT p.id AS p__id, p.nombre AS p__nombre, p.descrpicion AS p__descrpicion FROM proyecto p - ()
+Sep 29 06:56:54 symfony [info] {sfPHPView} Decorate content with "C:\xampp\htdocs\sfprojects\proyectosm\apps\frontend\templates/layout.php"
+Sep 29 06:56:54 symfony [info] {sfPHPView} Render "C:\xampp\htdocs\sfprojects\proyectosm\apps\frontend\templates/layout.php"
+Sep 29 06:56:54 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Sep 29 06:56:54 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Sep 29 06:56:54 symfony [info] {sfWebDebugLogger} Configuration 18.17 ms (9)
+Sep 29 06:56:54 symfony [info] {sfWebDebugLogger} Factories 539.73 ms (1)
+Sep 29 06:56:54 symfony [info] {sfWebDebugLogger} Action "contacto/new" 396.49 ms (1)
+Sep 29 06:56:54 symfony [info] {sfWebDebugLogger} View "Success" for "contacto/new" 581.96 ms (1)
+Sep 29 06:56:54 symfony [info] {sfWebDebugLogger} Partial "contacto/_form" 369.59 ms (1)
+Sep 29 06:56:54 symfony [info] {sfWebDebugLogger} Database (Doctrine) 0.78 ms (2)
+Sep 29 06:56:54 symfony [info] {sfWebResponse} Send content (44944 o)
+Sep 29 06:57:53 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /contacto/new with parameters array (  'module' => 'contacto',  'action' => 'new',)
+Sep 29 06:57:53 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Sep 29 06:57:53 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Sep 29 06:57:53 symfony [info] {contactoActions} Call "contactoActions->executeNew()"
+Sep 29 06:57:53 symfony [info] {sfPHPView} Render "C:\xampp\htdocs\sfprojects\proyectosm\apps\frontend\modules/contacto/templates/newSuccess.php"
+Sep 29 06:57:53 symfony [info] {sfPartialView} Render "C:\xampp\htdocs\sfprojects\proyectosm\apps\frontend\modules/contacto/templates/_form.php"
+Sep 29 06:57:53 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+Sep 29 06:57:53 symfony [info] {Doctrine_Connection_Mysql} query : SELECT p.id AS p__id, p.nombre AS p__nombre, p.descrpicion AS p__descrpicion FROM proyecto p - ()
+Sep 29 06:57:53 symfony [info] {sfPHPView} Decorate content with "C:\xampp\htdocs\sfprojects\proyectosm\apps\frontend\templates/layout.php"
+Sep 29 06:57:53 symfony [info] {sfPHPView} Render "C:\xampp\htdocs\sfprojects\proyectosm\apps\frontend\templates/layout.php"
+Sep 29 06:57:53 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Sep 29 06:57:53 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Sep 29 06:57:53 symfony [info] {sfWebDebugLogger} Configuration 26.94 ms (9)
+Sep 29 06:57:53 symfony [info] {sfWebDebugLogger} Factories 74.99 ms (1)
+Sep 29 06:57:53 symfony [info] {sfWebDebugLogger} Action "contacto/new" 49.93 ms (1)
+Sep 29 06:57:53 symfony [info] {sfWebDebugLogger} View "Success" for "contacto/new" 92.93 ms (1)
+Sep 29 06:57:53 symfony [info] {sfWebDebugLogger} Partial "contacto/_form" 72.55 ms (1)
+Sep 29 06:57:53 symfony [info] {sfWebDebugLogger} Database (Doctrine) 0.69 ms (2)
+Sep 29 06:57:53 symfony [info] {sfWebResponse} Send content (46440 o)
+Sep 29 07:17:01 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /contacto/new with parameters array (  'module' => 'contacto',  'action' => 'new',)
+Sep 29 07:17:01 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Sep 29 07:17:01 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Sep 29 07:17:01 symfony [info] {contactoActions} Call "contactoActions->executeNew()"
+Sep 29 07:17:01 symfony [info] {sfPHPView} Render "C:\xampp\htdocs\sfprojects\proyectosm\apps\frontend\modules/contacto/templates/newSuccess.php"
+Sep 29 07:17:01 symfony [info] {sfPartialView} Render "C:\xampp\htdocs\sfprojects\proyectosm\apps\frontend\modules/contacto/templates/_form.php"
+Sep 29 07:17:01 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+Sep 29 07:17:01 symfony [info] {Doctrine_Connection_Mysql} query : SELECT p.id AS p__id, p.nombre AS p__nombre, p.descrpicion AS p__descrpicion FROM proyecto p - ()
+Sep 29 07:17:01 symfony [info] {sfPHPView} Decorate content with "C:\xampp\htdocs\sfprojects\proyectosm\apps\frontend\templates/layout.php"
+Sep 29 07:17:01 symfony [info] {sfPHPView} Render "C:\xampp\htdocs\sfprojects\proyectosm\apps\frontend\templates/layout.php"
+Sep 29 07:17:01 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Sep 29 07:17:01 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Sep 29 07:17:01 symfony [info] {sfWebDebugLogger} Configuration 23.55 ms (9)
+Sep 29 07:17:01 symfony [info] {sfWebDebugLogger} Factories 66.30 ms (1)
+Sep 29 07:17:01 symfony [info] {sfWebDebugLogger} Action "contacto/new" 50.86 ms (1)
+Sep 29 07:17:01 symfony [info] {sfWebDebugLogger} View "Success" for "contacto/new" 93.25 ms (1)
+Sep 29 07:17:01 symfony [info] {sfWebDebugLogger} Partial "contacto/_form" 70.58 ms (1)
+Sep 29 07:17:01 symfony [info] {sfWebDebugLogger} Database (Doctrine) 0.52 ms (2)
+Sep 29 07:17:01 symfony [info] {sfWebResponse} Send content (47292 o)
+Sep 29 07:22:20 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /contacto/new with parameters array (  'module' => 'contacto',  'action' => 'new',)
+Sep 29 07:22:20 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Sep 29 07:22:20 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Sep 29 07:22:20 symfony [info] {contactoActions} Call "contactoActions->executeNew()"
+Sep 29 07:22:20 symfony [info] {sfPHPView} Render "C:\xampp\htdocs\sfprojects\proyectosm\apps\frontend\modules/contacto/templates/newSuccess.php"
+Sep 29 07:22:20 symfony [info] {sfPartialView} Render "C:\xampp\htdocs\sfprojects\proyectosm\apps\frontend\modules/contacto/templates/_form.php"
+Sep 29 07:22:20 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+Sep 29 07:22:20 symfony [info] {Doctrine_Connection_Mysql} query : SELECT p.id AS p__id, p.nombre AS p__nombre, p.descrpicion AS p__descrpicion FROM proyecto p - ()
+Sep 29 07:22:20 symfony [info] {sfPHPView} Decorate content with "C:\xampp\htdocs\sfprojects\proyectosm\apps\frontend\templates/layout.php"
+Sep 29 07:22:20 symfony [info] {sfPHPView} Render "C:\xampp\htdocs\sfprojects\proyectosm\apps\frontend\templates/layout.php"
+Sep 29 07:22:20 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Sep 29 07:22:20 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Sep 29 07:22:20 symfony [info] {sfWebDebugLogger} Configuration 18.49 ms (9)
+Sep 29 07:22:20 symfony [info] {sfWebDebugLogger} Factories 41.80 ms (1)
+Sep 29 07:22:20 symfony [info] {sfWebDebugLogger} Action "contacto/new" 47.46 ms (1)
+Sep 29 07:22:20 symfony [info] {sfWebDebugLogger} View "Success" for "contacto/new" 106.46 ms (1)
+Sep 29 07:22:20 symfony [info] {sfWebDebugLogger} Partial "contacto/_form" 55.72 ms (1)
+Sep 29 07:22:20 symfony [info] {sfWebDebugLogger} Database (Doctrine) 0.73 ms (2)
+Sep 29 07:22:20 symfony [info] {sfWebResponse} Send content (44079 o)
+Sep 29 07:23:47 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /contacto/new with parameters array (  'module' => 'contacto',  'action' => 'new',)
+Sep 29 07:23:47 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Sep 29 07:23:47 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Sep 29 07:23:47 symfony [info] {contactoActions} Call "contactoActions->executeNew()"
+Sep 29 07:23:47 symfony [info] {sfPHPView} Render "C:\xampp\htdocs\sfprojects\proyectosm\apps\frontend\modules/contacto/templates/newSuccess.php"
+Sep 29 07:23:47 symfony [info] {sfPartialView} Render "C:\xampp\htdocs\sfprojects\proyectosm\apps\frontend\modules/contacto/templates/_form.php"
+Sep 29 07:23:47 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+Sep 29 07:23:47 symfony [info] {Doctrine_Connection_Mysql} query : SELECT p.id AS p__id, p.nombre AS p__nombre, p.descrpicion AS p__descrpicion FROM proyecto p - ()
+Sep 29 07:23:47 symfony [info] {sfPHPView} Decorate content with "C:\xampp\htdocs\sfprojects\proyectosm\apps\frontend\templates/layout.php"
+Sep 29 07:23:47 symfony [info] {sfPHPView} Render "C:\xampp\htdocs\sfprojects\proyectosm\apps\frontend\templates/layout.php"
+Sep 29 07:23:47 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Sep 29 07:23:47 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Sep 29 07:23:47 symfony [info] {sfWebDebugLogger} Configuration 19.13 ms (9)
+Sep 29 07:23:47 symfony [info] {sfWebDebugLogger} Factories 49.71 ms (1)
+Sep 29 07:23:47 symfony [info] {sfWebDebugLogger} Action "contacto/new" 43.02 ms (1)
+Sep 29 07:23:47 symfony [info] {sfWebDebugLogger} View "Success" for "contacto/new" 70.12 ms (1)
+Sep 29 07:23:47 symfony [info] {sfWebDebugLogger} Partial "contacto/_form" 48.64 ms (1)
+Sep 29 07:23:47 symfony [info] {sfWebDebugLogger} Database (Doctrine) 0.47 ms (2)
+Sep 29 07:23:47 symfony [info] {sfWebResponse} Send content (44077 o)
+Sep 29 07:24:00 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /contacto/new with parameters array (  'module' => 'contacto',  'action' => 'new',)
+Sep 29 07:24:00 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Sep 29 07:24:00 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Sep 29 07:24:00 symfony [info] {contactoActions} Call "contactoActions->executeNew()"
+Sep 29 07:24:01 symfony [info] {sfPHPView} Render "C:\xampp\htdocs\sfprojects\proyectosm\apps\frontend\modules/contacto/templates/newSuccess.php"
+Sep 29 07:24:01 symfony [info] {sfPartialView} Render "C:\xampp\htdocs\sfprojects\proyectosm\apps\frontend\modules/contacto/templates/_form.php"
+Sep 29 07:24:01 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+Sep 29 07:24:01 symfony [info] {Doctrine_Connection_Mysql} query : SELECT p.id AS p__id, p.nombre AS p__nombre, p.descrpicion AS p__descrpicion FROM proyecto p - ()
+Sep 29 07:24:01 symfony [info] {sfPHPView} Decorate content with "C:\xampp\htdocs\sfprojects\proyectosm\apps\frontend\templates/layout.php"
+Sep 29 07:24:01 symfony [info] {sfPHPView} Render "C:\xampp\htdocs\sfprojects\proyectosm\apps\frontend\templates/layout.php"
+Sep 29 07:24:01 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Sep 29 07:24:01 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Sep 29 07:24:01 symfony [info] {sfWebDebugLogger} Configuration 24.89 ms (9)
+Sep 29 07:24:01 symfony [info] {sfWebDebugLogger} Factories 84.71 ms (1)
+Sep 29 07:24:01 symfony [info] {sfWebDebugLogger} Action "contacto/new" 51.91 ms (1)
+Sep 29 07:24:01 symfony [info] {sfWebDebugLogger} View "Success" for "contacto/new" 80.89 ms (1)
+Sep 29 07:24:01 symfony [info] {sfWebDebugLogger} Partial "contacto/_form" 55.71 ms (1)
+Sep 29 07:24:01 symfony [info] {sfWebDebugLogger} Database (Doctrine) 0.73 ms (2)
+Sep 29 07:24:01 symfony [info] {sfWebResponse} Send content (44078 o)
+Sep 29 07:25:31 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /contacto/new with parameters array (  'module' => 'contacto',  'action' => 'new',)
+Sep 29 07:25:31 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Sep 29 07:25:31 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Sep 29 07:25:31 symfony [info] {contactoActions} Call "contactoActions->executeNew()"
+Sep 29 07:25:31 symfony [info] {sfPHPView} Render "C:\xampp\htdocs\sfprojects\proyectosm\apps\frontend\modules/contacto/templates/newSuccess.php"
+Sep 29 07:25:31 symfony [info] {sfPartialView} Render "C:\xampp\htdocs\sfprojects\proyectosm\apps\frontend\modules/contacto/templates/_form.php"
+Sep 29 07:25:31 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+Sep 29 07:25:31 symfony [info] {Doctrine_Connection_Mysql} query : SELECT p.id AS p__id, p.nombre AS p__nombre, p.descrpicion AS p__descrpicion FROM proyecto p - ()
+Sep 29 07:25:31 symfony [info] {sfPHPView} Decorate content with "C:\xampp\htdocs\sfprojects\proyectosm\apps\frontend\templates/layout.php"
+Sep 29 07:25:31 symfony [info] {sfPHPView} Render "C:\xampp\htdocs\sfprojects\proyectosm\apps\frontend\templates/layout.php"
+Sep 29 07:25:31 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Sep 29 07:25:31 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Sep 29 07:25:31 symfony [info] {sfWebDebugLogger} Configuration 21.98 ms (9)
+Sep 29 07:25:31 symfony [info] {sfWebDebugLogger} Factories 58.08 ms (1)
+Sep 29 07:25:31 symfony [info] {sfWebDebugLogger} Action "contacto/new" 48.09 ms (1)
+Sep 29 07:25:31 symfony [info] {sfWebDebugLogger} View "Success" for "contacto/new" 86.25 ms (1)
+Sep 29 07:25:31 symfony [info] {sfWebDebugLogger} Partial "contacto/_form" 54.98 ms (1)
+Sep 29 07:25:31 symfony [info] {sfWebDebugLogger} Database (Doctrine) 0.76 ms (2)
+Sep 29 07:25:31 symfony [info] {sfWebResponse} Send content (44078 o)
+Sep 29 14:14:23 symfony [info] {sfPatternRouting} Match route "default_index" (/:module) for /proyecto with parameters array (  'module' => 'proyecto',  'action' => 'index',)
+Sep 29 14:14:25 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Sep 29 14:14:25 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Sep 29 14:14:25 symfony [info] {proyectoActions} Call "proyectoActions->executeIndex()"
+Sep 29 14:14:25 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+Sep 29 14:14:25 symfony [info] {Doctrine_Connection_Mysql} query : SELECT p.id AS p__id, p.nombre AS p__nombre, p.descrpicion AS p__descrpicion FROM proyecto p - ()
+Sep 29 14:14:25 symfony [info] {sfPHPView} Render "C:\xampp\htdocs\sfprojects\proyectosm\apps\frontend\modules/proyecto/templates/indexSuccess.php"
+Sep 29 14:14:26 symfony [info] {sfPHPView} Decorate content with "C:\xampp\htdocs\sfprojects\proyectosm\apps\frontend\templates/layout.php"
+Sep 29 14:14:26 symfony [info] {sfPHPView} Render "C:\xampp\htdocs\sfprojects\proyectosm\apps\frontend\templates/layout.php"
+Sep 29 14:14:26 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Sep 29 14:14:26 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Sep 29 14:14:26 symfony [info] {sfWebDebugLogger} Configuration 139.49 ms (9)
+Sep 29 14:14:26 symfony [info] {sfWebDebugLogger} Factories 3406.78 ms (1)
+Sep 29 14:14:26 symfony [info] {sfWebDebugLogger} Action "proyecto/index" 45.67 ms (1)
+Sep 29 14:14:26 symfony [info] {sfWebDebugLogger} Database (Doctrine) 0.48 ms (2)
+Sep 29 14:14:26 symfony [info] {sfWebDebugLogger} View "Success" for "proyecto/index" 256.81 ms (1)
+Sep 29 14:14:26 symfony [info] {sfWebResponse} Send content (35560 o)
+Sep 29 14:14:36 symfony [info] {sfPatternRouting} Match route "default_index" (/:module) for /proyecto with parameters array (  'module' => 'proyecto',  'action' => 'index',)
+Sep 29 14:14:36 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Sep 29 14:14:36 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Sep 29 14:14:36 symfony [info] {proyectoActions} Call "proyectoActions->executeIndex()"
+Sep 29 14:14:36 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+Sep 29 14:14:36 symfony [info] {Doctrine_Connection_Mysql} query : SELECT p.id AS p__id, p.nombre AS p__nombre, p.descrpicion AS p__descrpicion FROM proyecto p - ()
+Sep 29 14:14:36 symfony [info] {sfPHPView} Render "C:\xampp\htdocs\sfprojects\proyectosm\apps\frontend\modules/proyecto/templates/indexSuccess.php"
+Sep 29 14:14:37 symfony [info] {sfPHPView} Decorate content with "C:\xampp\htdocs\sfprojects\proyectosm\apps\frontend\templates/layout.php"
+Sep 29 14:14:37 symfony [info] {sfPHPView} Render "C:\xampp\htdocs\sfprojects\proyectosm\apps\frontend\templates/layout.php"
+Sep 29 14:14:37 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Sep 29 14:14:37 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Sep 29 14:14:37 symfony [info] {sfWebDebugLogger} Configuration 29.17 ms (9)
+Sep 29 14:14:37 symfony [info] {sfWebDebugLogger} Factories 97.71 ms (1)
+Sep 29 14:14:37 symfony [info] {sfWebDebugLogger} Action "proyecto/index" 31.25 ms (1)
+Sep 29 14:14:37 symfony [info] {sfWebDebugLogger} Database (Doctrine) 0.45 ms (2)
+Sep 29 14:14:37 symfony [info] {sfWebDebugLogger} View "Success" for "proyecto/index" 72.82 ms (1)
+Sep 29 14:14:37 symfony [info] {sfWebResponse} Send content (35588 o)
+Sep 29 14:14:40 symfony [info] {sfPatternRouting} Match route "default_index" (/:module) for /proyecto with parameters array (  'module' => 'proyecto',  'action' => 'index',)
+Sep 29 14:14:40 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Sep 29 14:14:40 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Sep 29 14:14:40 symfony [info] {proyectoActions} Call "proyectoActions->executeIndex()"
+Sep 29 14:14:40 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+Sep 29 14:14:40 symfony [info] {Doctrine_Connection_Mysql} query : SELECT p.id AS p__id, p.nombre AS p__nombre, p.descrpicion AS p__descrpicion FROM proyecto p - ()
+Sep 29 14:14:40 symfony [info] {sfPHPView} Render "C:\xampp\htdocs\sfprojects\proyectosm\apps\frontend\modules/proyecto/templates/indexSuccess.php"
+Sep 29 14:14:40 symfony [info] {sfPHPView} Decorate content with "C:\xampp\htdocs\sfprojects\proyectosm\apps\frontend\templates/layout.php"
+Sep 29 14:14:40 symfony [info] {sfPHPView} Render "C:\xampp\htdocs\sfprojects\proyectosm\apps\frontend\templates/layout.php"
+Sep 29 14:14:40 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Sep 29 14:14:40 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Sep 29 14:14:40 symfony [info] {sfWebDebugLogger} Configuration 29.44 ms (9)
+Sep 29 14:14:40 symfony [info] {sfWebDebugLogger} Factories 67.43 ms (1)
+Sep 29 14:14:40 symfony [info] {sfWebDebugLogger} Action "proyecto/index" 46.36 ms (1)
+Sep 29 14:14:40 symfony [info] {sfWebDebugLogger} Database (Doctrine) 0.79 ms (2)
+Sep 29 14:14:40 symfony [info] {sfWebDebugLogger} View "Success" for "proyecto/index" 34.14 ms (1)
+Sep 29 14:14:40 symfony [info] {sfWebResponse} Send content (35597 o)
+Sep 29 14:14:54 symfony [info] {sfPatternRouting} Match route "default_index" (/:module) for /proyecto with parameters array (  'module' => 'proyecto',  'action' => 'index',)
+Sep 29 14:14:54 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Sep 29 14:14:54 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Sep 29 14:14:54 symfony [info] {proyectoActions} Call "proyectoActions->executeIndex()"
+Sep 29 14:14:54 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+Sep 29 14:14:54 symfony [info] {Doctrine_Connection_Mysql} query : SELECT p.id AS p__id, p.nombre AS p__nombre, p.descrpicion AS p__descrpicion FROM proyecto p - ()
+Sep 29 14:14:54 symfony [info] {sfPHPView} Render "C:\xampp\htdocs\sfprojects\proyectosm\apps\frontend\modules/proyecto/templates/indexSuccess.php"
+Sep 29 14:14:54 symfony [info] {sfPHPView} Decorate content with "C:\xampp\htdocs\sfprojects\proyectosm\apps\frontend\templates/layout.php"
+Sep 29 14:14:54 symfony [info] {sfPHPView} Render "C:\xampp\htdocs\sfprojects\proyectosm\apps\frontend\templates/layout.php"
+Sep 29 14:14:54 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Sep 29 14:14:54 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Sep 29 14:14:54 symfony [info] {sfWebDebugLogger} Configuration 32.44 ms (9)
+Sep 29 14:14:54 symfony [info] {sfWebDebugLogger} Factories 76.28 ms (1)
+Sep 29 14:14:54 symfony [info] {sfWebDebugLogger} Action "proyecto/index" 35.96 ms (1)
+Sep 29 14:14:54 symfony [info] {sfWebDebugLogger} Database (Doctrine) 0.62 ms (2)
+Sep 29 14:14:54 symfony [info] {sfWebDebugLogger} View "Success" for "proyecto/index" 38.39 ms (1)
+Sep 29 14:14:54 symfony [info] {sfWebResponse} Send content (35558 o)
+Sep 29 14:15:09 symfony [info] {sfPatternRouting} Match route "default_index" (/:module) for /proyecto with parameters array (  'module' => 'proyecto',  'action' => 'index',)
+Sep 29 14:15:09 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Sep 29 14:15:09 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Sep 29 14:15:09 symfony [info] {proyectoActions} Call "proyectoActions->executeIndex()"
+Sep 29 14:15:09 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+Sep 29 14:15:09 symfony [info] {Doctrine_Connection_Mysql} query : SELECT p.id AS p__id, p.nombre AS p__nombre, p.descrpicion AS p__descrpicion FROM proyecto p - ()
+Sep 29 14:15:09 symfony [info] {sfPHPView} Render "C:\xampp\htdocs\sfprojects\proyectosm\apps\frontend\modules/proyecto/templates/indexSuccess.php"
+Sep 29 14:15:09 symfony [info] {sfPHPView} Decorate content with "C:\xampp\htdocs\sfprojects\proyectosm\apps\frontend\templates/layout.php"
+Sep 29 14:15:09 symfony [info] {sfPHPView} Render "C:\xampp\htdocs\sfprojects\proyectosm\apps\frontend\templates/layout.php"
+Sep 29 14:15:09 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Sep 29 14:15:09 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Sep 29 14:15:09 symfony [info] {sfWebDebugLogger} Configuration 25.11 ms (9)
+Sep 29 14:15:09 symfony [info] {sfWebDebugLogger} Factories 41.08 ms (1)
+Sep 29 14:15:09 symfony [info] {sfWebDebugLogger} Action "proyecto/index" 33.53 ms (1)
+Sep 29 14:15:09 symfony [info] {sfWebDebugLogger} Database (Doctrine) 0.65 ms (2)
+Sep 29 14:15:09 symfony [info] {sfWebDebugLogger} View "Success" for "proyecto/index" 25.46 ms (1)
+Sep 29 14:15:09 symfony [info] {sfWebResponse} Send content (35526 o)
+Sep 29 14:15:26 symfony [info] {sfPatternRouting} Match route "default_index" (/:module) for /proyecto with parameters array (  'module' => 'proyecto',  'action' => 'index',)
+Sep 29 14:15:26 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Sep 29 14:15:26 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Sep 29 14:15:26 symfony [info] {proyectoActions} Call "proyectoActions->executeIndex()"
+Sep 29 14:15:26 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+Sep 29 14:15:26 symfony [info] {Doctrine_Connection_Mysql} query : SELECT p.id AS p__id, p.nombre AS p__nombre, p.descrpicion AS p__descrpicion FROM proyecto p - ()
+Sep 29 14:15:26 symfony [info] {sfPHPView} Render "C:\xampp\htdocs\sfprojects\proyectosm\apps\frontend\modules/proyecto/templates/indexSuccess.php"
+Sep 29 14:15:26 symfony [info] {sfPHPView} Decorate content with "C:\xampp\htdocs\sfprojects\proyectosm\apps\frontend\templates/layout.php"
+Sep 29 14:15:26 symfony [info] {sfPHPView} Render "C:\xampp\htdocs\sfprojects\proyectosm\apps\frontend\templates/layout.php"
+Sep 29 14:15:26 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Sep 29 14:15:26 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Sep 29 14:15:26 symfony [info] {sfWebDebugLogger} Configuration 28.15 ms (9)
+Sep 29 14:15:26 symfony [info] {sfWebDebugLogger} Factories 49.41 ms (1)
+Sep 29 14:15:26 symfony [info] {sfWebDebugLogger} Action "proyecto/index" 78.90 ms (1)
+Sep 29 14:15:26 symfony [info] {sfWebDebugLogger} Database (Doctrine) 0.70 ms (2)
+Sep 29 14:15:26 symfony [info] {sfWebDebugLogger} View "Success" for "proyecto/index" 37.33 ms (1)
+Sep 29 14:15:26 symfony [info] {sfWebResponse} Send content (35550 o)
+Sep 29 14:16:03 symfony [info] {sfPatternRouting} Match route "default_index" (/:module) for /proyecto with parameters array (  'module' => 'proyecto',  'action' => 'index',)
+Sep 29 14:16:03 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Sep 29 14:16:03 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Sep 29 14:16:03 symfony [info] {proyectoActions} Call "proyectoActions->executeIndex()"
+Sep 29 14:16:03 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+Sep 29 14:16:03 symfony [info] {Doctrine_Connection_Mysql} query : SELECT p.id AS p__id, p.nombre AS p__nombre, p.descrpicion AS p__descrpicion FROM proyecto p - ()
+Sep 29 14:16:03 symfony [info] {sfPHPView} Render "C:\xampp\htdocs\sfprojects\proyectosm\apps\frontend\modules/proyecto/templates/indexSuccess.php"
+Sep 29 14:16:03 symfony [info] {sfPHPView} Decorate content with "C:\xampp\htdocs\sfprojects\proyectosm\apps\frontend\templates/layout.php"
+Sep 29 14:16:03 symfony [info] {sfPHPView} Render "C:\xampp\htdocs\sfprojects\proyectosm\apps\frontend\templates/layout.php"
+Sep 29 14:16:03 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Sep 29 14:16:03 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Sep 29 14:16:03 symfony [info] {sfWebDebugLogger} Configuration 27.37 ms (9)
+Sep 29 14:16:03 symfony [info] {sfWebDebugLogger} Factories 51.93 ms (1)
+Sep 29 14:16:03 symfony [info] {sfWebDebugLogger} Action "proyecto/index" 43.97 ms (1)
+Sep 29 14:16:03 symfony [info] {sfWebDebugLogger} Database (Doctrine) 0.55 ms (2)
+Sep 29 14:16:03 symfony [info] {sfWebDebugLogger} View "Success" for "proyecto/index" 28.35 ms (1)
+Sep 29 14:16:03 symfony [info] {sfWebResponse} Send content (35525 o)
+Sep 29 14:17:29 symfony [info] {sfPatternRouting} Match route "default_index" (/:module) for /proyecto with parameters array (  'module' => 'proyecto',  'action' => 'index',)
+Sep 29 14:17:29 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Sep 29 14:17:29 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Sep 29 14:17:29 symfony [info] {proyectoActions} Call "proyectoActions->executeIndex()"
+Sep 29 14:17:29 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+Sep 29 14:17:29 symfony [info] {Doctrine_Connection_Mysql} query : SELECT p.id AS p__id, p.nombre AS p__nombre, p.descrpicion AS p__descrpicion FROM proyecto p - ()
+Sep 29 14:17:29 symfony [info] {sfPHPView} Render "C:\xampp\htdocs\sfprojects\proyectosm\apps\frontend\modules/proyecto/templates/indexSuccess.php"
+Sep 29 14:17:29 symfony [info] {sfPHPView} Decorate content with "C:\xampp\htdocs\sfprojects\proyectosm\apps\frontend\templates/layout.php"
+Sep 29 14:17:29 symfony [info] {sfPHPView} Render "C:\xampp\htdocs\sfprojects\proyectosm\apps\frontend\templates/layout.php"
+Sep 29 14:17:29 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Sep 29 14:17:29 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Sep 29 14:17:29 symfony [info] {sfWebDebugLogger} Configuration 24.11 ms (9)
+Sep 29 14:17:29 symfony [info] {sfWebDebugLogger} Factories 65.66 ms (1)
+Sep 29 14:17:29 symfony [info] {sfWebDebugLogger} Action "proyecto/index" 38.36 ms (1)
+Sep 29 14:17:29 symfony [info] {sfWebDebugLogger} Database (Doctrine) 0.71 ms (2)
+Sep 29 14:17:29 symfony [info] {sfWebDebugLogger} View "Success" for "proyecto/index" 26.94 ms (1)
+Sep 29 14:17:29 symfony [info] {sfWebResponse} Send content (35526 o)
+Sep 29 14:20:39 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /contacto/new with parameters array (  'module' => 'contacto',  'action' => 'new',)
+Sep 29 14:20:43 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Sep 29 14:20:43 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Sep 29 14:20:43 symfony [info] {contactoActions} Call "contactoActions->executeNew()"
+Sep 29 14:20:44 symfony [info] {sfPHPView} Render "C:\xampp\htdocs\sfprojects\proyectosm\apps\frontend\modules/contacto/templates/newSuccess.php"
+Sep 29 14:20:44 symfony [info] {sfPartialView} Render "C:\xampp\htdocs\sfprojects\proyectosm\apps\frontend\modules/contacto/templates/_form.php"
+Sep 29 14:20:45 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+Sep 29 14:20:45 symfony [info] {Doctrine_Connection_Mysql} query : SELECT p.id AS p__id, p.nombre AS p__nombre, p.descrpicion AS p__descrpicion FROM proyecto p - ()
+Sep 29 14:20:45 symfony [info] {sfPHPView} Decorate content with "C:\xampp\htdocs\sfprojects\proyectosm\apps\frontend\templates/layout.php"
+Sep 29 14:20:45 symfony [info] {sfPHPView} Render "C:\xampp\htdocs\sfprojects\proyectosm\apps\frontend\templates/layout.php"
+Sep 29 14:20:45 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Sep 29 14:20:45 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Sep 29 14:20:45 symfony [info] {sfWebDebugLogger} Configuration 72.32 ms (9)
+Sep 29 14:20:45 symfony [info] {sfWebDebugLogger} Factories 4061.44 ms (1)
+Sep 29 14:20:45 symfony [info] {sfWebDebugLogger} Action "contacto/new" 958.79 ms (1)
+Sep 29 14:20:45 symfony [info] {sfWebDebugLogger} View "Success" for "contacto/new" 1658.41 ms (1)
+Sep 29 14:20:45 symfony [info] {sfWebDebugLogger} Partial "contacto/_form" 848.23 ms (1)
+Sep 29 14:20:45 symfony [info] {sfWebDebugLogger} Database (Doctrine) 0.37 ms (2)
+Sep 29 14:20:45 symfony [info] {sfWebResponse} Send content (44007 o)
+Sep 29 14:28:00 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /contacto/new with parameters array (  'module' => 'contacto',  'action' => 'new',)
+Sep 29 14:28:00 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Sep 29 14:28:00 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Sep 29 14:28:00 symfony [info] {contactoActions} Call "contactoActions->executeNew()"
+Sep 29 14:28:01 symfony [info] {sfPHPView} Render "C:\xampp\htdocs\sfprojects\proyectosm\apps\frontend\modules/contacto/templates/newSuccess.php"
+Sep 29 14:28:01 symfony [info] {sfPartialView} Render "C:\xampp\htdocs\sfprojects\proyectosm\apps\frontend\modules/contacto/templates/_form.php"
+Sep 29 14:28:01 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+Sep 29 14:28:01 symfony [info] {Doctrine_Connection_Mysql} query : SELECT p.id AS p__id, p.nombre AS p__nombre, p.descrpicion AS p__descrpicion FROM proyecto p - ()
+Sep 29 14:28:01 symfony [info] {sfPHPView} Decorate content with "C:\xampp\htdocs\sfprojects\proyectosm\apps\frontend\templates/layout.php"
+Sep 29 14:28:01 symfony [info] {sfPHPView} Render "C:\xampp\htdocs\sfprojects\proyectosm\apps\frontend\templates/layout.php"
+Sep 29 14:28:01 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Sep 29 14:28:01 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Sep 29 14:28:01 symfony [info] {sfWebDebugLogger} Configuration 26.92 ms (9)
+Sep 29 14:28:01 symfony [info] {sfWebDebugLogger} Factories 550.87 ms (1)
+Sep 29 14:28:01 symfony [info] {sfWebDebugLogger} Action "contacto/new" 342.84 ms (1)
+Sep 29 14:28:01 symfony [info] {sfWebDebugLogger} View "Success" for "contacto/new" 887.64 ms (1)
+Sep 29 14:28:01 symfony [info] {sfWebDebugLogger} Partial "contacto/_form" 346.41 ms (1)
+Sep 29 14:28:01 symfony [info] {sfWebDebugLogger} Database (Doctrine) 0.71 ms (2)
+Sep 29 14:28:02 symfony [info] {sfWebResponse} Send content (43983 o)
+Sep 29 14:29:22 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /contacto/new with parameters array (  'module' => 'contacto',  'action' => 'new',)
+Sep 29 14:29:22 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Sep 29 14:29:22 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Sep 29 14:29:22 symfony [info] {contactoActions} Call "contactoActions->executeNew()"
+Sep 29 14:29:25 symfony [info] {sfPHPView} Render "C:\xampp\htdocs\sfprojects\proyectosm\apps\frontend\modules/contacto/templates/newSuccess.php"
+Sep 29 14:29:25 symfony [info] {sfPartialView} Render "C:\xampp\htdocs\sfprojects\proyectosm\apps\frontend\modules/contacto/templates/_form.php"
+Sep 29 14:29:25 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+Sep 29 14:29:25 symfony [info] {Doctrine_Connection_Mysql} query : SELECT p.id AS p__id, p.nombre AS p__nombre, p.descrpicion AS p__descrpicion FROM proyecto p - ()
+Sep 29 14:29:25 symfony [info] {sfPHPView} Decorate content with "C:\xampp\htdocs\sfprojects\proyectosm\apps\frontend\templates/layout.php"
+Sep 29 14:29:25 symfony [info] {sfPHPView} Render "C:\xampp\htdocs\sfprojects\proyectosm\apps\frontend\templates/layout.php"
+Sep 29 14:29:25 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Sep 29 14:29:25 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Sep 29 14:29:25 symfony [info] {sfWebDebugLogger} Configuration 2403.02 ms (10)
+Sep 29 14:29:25 symfony [info] {sfWebDebugLogger} Factories 86.30 ms (1)
+Sep 29 14:29:25 symfony [info] {sfWebDebugLogger} Action "contacto/new" 37.05 ms (1)
+Sep 29 14:29:25 symfony [info] {sfWebDebugLogger} View "Success" for "contacto/new" 3239.77 ms (1)
+Sep 29 14:29:25 symfony [info] {sfWebDebugLogger} Partial "contacto/_form" 39.53 ms (1)
+Sep 29 14:29:25 symfony [info] {sfWebDebugLogger} Database (Doctrine) 0.73 ms (2)
+Sep 29 14:29:25 symfony [info] {sfWebResponse} Send content (44094 o)
+Sep 29 14:37:06 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /contacto/new with parameters array (  'module' => 'contacto',  'action' => 'new',)
+Sep 29 14:37:06 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Sep 29 14:37:06 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Sep 29 14:37:06 symfony [info] {contactoActions} Call "contactoActions->executeNew()"
+Sep 29 14:37:07 symfony [info] {sfPHPView} Render "C:\xampp\htdocs\sfprojects\proyectosm\apps\frontend\modules/contacto/templates/newSuccess.php"
+Sep 29 14:37:07 symfony [info] {sfPartialView} Render "C:\xampp\htdocs\sfprojects\proyectosm\apps\frontend\modules/contacto/templates/_form.php"
+Sep 29 14:37:07 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+Sep 29 14:37:07 symfony [info] {Doctrine_Connection_Mysql} query : SELECT p.id AS p__id, p.nombre AS p__nombre, p.descrpicion AS p__descrpicion FROM proyecto p - ()
+Sep 29 14:37:07 symfony [info] {sfPHPView} Decorate content with "C:\xampp\htdocs\sfprojects\proyectosm\apps\frontend\templates/layout.php"
+Sep 29 14:37:07 symfony [info] {sfPHPView} Render "C:\xampp\htdocs\sfprojects\proyectosm\apps\frontend\templates/layout.php"
+Sep 29 14:37:07 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Sep 29 14:37:07 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Sep 29 14:37:07 symfony [info] {sfWebDebugLogger} Configuration 36.05 ms (9)
+Sep 29 14:37:07 symfony [info] {sfWebDebugLogger} Factories 607.59 ms (1)
+Sep 29 14:37:07 symfony [info] {sfWebDebugLogger} Action "contacto/new" 431.81 ms (1)
+Sep 29 14:37:07 symfony [info] {sfWebDebugLogger} View "Success" for "contacto/new" 576.01 ms (1)
+Sep 29 14:37:07 symfony [info] {sfWebDebugLogger} Partial "contacto/_form" 324.08 ms (1)
+Sep 29 14:37:07 symfony [info] {sfWebDebugLogger} Database (Doctrine) 0.69 ms (2)
+Sep 29 14:37:07 symfony [info] {sfWebResponse} Send content (44094 o)
+Sep 29 14:48:50 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /contacto/new with parameters array (  'module' => 'contacto',  'action' => 'new',)
+Sep 29 14:48:51 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Sep 29 14:48:51 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Sep 29 14:48:51 symfony [info] {contactoActions} Call "contactoActions->executeNew()"
+Sep 29 14:48:52 symfony [info] {sfPHPView} Render "C:\xampp\htdocs\sfprojects\proyectosm\apps\frontend\modules/contacto/templates/newSuccess.php"
+Sep 29 14:48:52 symfony [info] {sfPartialView} Render "C:\xampp\htdocs\sfprojects\proyectosm\apps\frontend\modules/contacto/templates/_form.php"
+Sep 29 14:48:52 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+Sep 29 14:48:52 symfony [info] {Doctrine_Connection_Mysql} query : SELECT p.id AS p__id, p.nombre AS p__nombre, p.descrpicion AS p__descrpicion FROM proyecto p - ()
+Sep 29 14:48:52 symfony [info] {sfPHPView} Decorate content with "C:\xampp\htdocs\sfprojects\proyectosm\apps\frontend\templates/layout.php"
+Sep 29 14:48:52 symfony [info] {sfPHPView} Render "C:\xampp\htdocs\sfprojects\proyectosm\apps\frontend\templates/layout.php"
+Sep 29 14:48:52 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Sep 29 14:48:52 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Sep 29 14:48:52 symfony [info] {sfWebDebugLogger} Configuration 2935.52 ms (9)
+Sep 29 14:48:52 symfony [info] {sfWebDebugLogger} Factories 1442.35 ms (1)
+Sep 29 14:48:52 symfony [info] {sfWebDebugLogger} Action "contacto/new" 331.11 ms (1)
+Sep 29 14:48:52 symfony [info] {sfWebDebugLogger} View "Success" for "contacto/new" 727.19 ms (1)
+Sep 29 14:48:52 symfony [info] {sfWebDebugLogger} Partial "contacto/_form" 316.29 ms (1)
+Sep 29 14:48:52 symfony [info] {sfWebDebugLogger} Database (Doctrine) 0.42 ms (2)
+Sep 29 14:48:52 symfony [info] {sfWebResponse} Send content (43643 o)
+Sep 29 14:52:36 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /contacto/new with parameters array (  'module' => 'contacto',  'action' => 'new',)
+Sep 29 14:52:36 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Sep 29 14:52:36 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Sep 29 14:52:36 symfony [info] {contactoActions} Call "contactoActions->executeNew()"
+Sep 29 14:52:36 symfony [info] {sfPHPView} Render "C:\xampp\htdocs\sfprojects\proyectosm\apps\frontend\modules/contacto/templates/newSuccess.php"
+Sep 29 14:52:36 symfony [info] {sfPartialView} Render "C:\xampp\htdocs\sfprojects\proyectosm\apps\frontend\modules/contacto/templates/_form.php"
+Sep 29 14:52:36 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+Sep 29 14:52:36 symfony [info] {Doctrine_Connection_Mysql} query : SELECT p.id AS p__id, p.nombre AS p__nombre, p.descrpicion AS p__descrpicion FROM proyecto p - ()
+Sep 29 14:52:36 symfony [info] {sfPHPView} Decorate content with "C:\xampp\htdocs\sfprojects\proyectosm\apps\frontend\templates/layout.php"
+Sep 29 14:52:36 symfony [info] {sfPHPView} Render "C:\xampp\htdocs\sfprojects\proyectosm\apps\frontend\templates/layout.php"
+Sep 29 14:52:36 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Sep 29 14:52:36 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Sep 29 14:52:36 symfony [info] {sfWebDebugLogger} Configuration 21.08 ms (9)
+Sep 29 14:52:36 symfony [info] {sfWebDebugLogger} Factories 46.11 ms (1)
+Sep 29 14:52:36 symfony [info] {sfWebDebugLogger} Action "contacto/new" 32.81 ms (1)
+Sep 29 14:52:36 symfony [info] {sfWebDebugLogger} View "Success" for "contacto/new" 66.55 ms (1)
+Sep 29 14:52:36 symfony [info] {sfWebDebugLogger} Partial "contacto/_form" 39.27 ms (1)
+Sep 29 14:52:36 symfony [info] {sfWebDebugLogger} Database (Doctrine) 0.52 ms (2)
+Sep 29 14:52:36 symfony [info] {sfWebResponse} Send content (43456 o)
+Sep 29 14:53:41 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /contacto/new with parameters array (  'module' => 'contacto',  'action' => 'new',)
+Sep 29 14:53:41 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Sep 29 14:53:41 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Sep 29 14:53:41 symfony [info] {contactoActions} Call "contactoActions->executeNew()"
+Sep 29 14:53:41 symfony [info] {sfPHPView} Render "C:\xampp\htdocs\sfprojects\proyectosm\apps\frontend\modules/contacto/templates/newSuccess.php"
+Sep 29 14:53:41 symfony [info] {sfPartialView} Render "C:\xampp\htdocs\sfprojects\proyectosm\apps\frontend\modules/contacto/templates/_form.php"
+Sep 29 14:53:41 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+Sep 29 14:53:41 symfony [info] {Doctrine_Connection_Mysql} query : SELECT p.id AS p__id, p.nombre AS p__nombre, p.descrpicion AS p__descrpicion FROM proyecto p - ()
+Sep 29 14:53:41 symfony [info] {sfPHPView} Decorate content with "C:\xampp\htdocs\sfprojects\proyectosm\apps\frontend\templates/layout.php"
+Sep 29 14:53:41 symfony [info] {sfPHPView} Render "C:\xampp\htdocs\sfprojects\proyectosm\apps\frontend\templates/layout.php"
+Sep 29 14:53:41 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Sep 29 14:53:41 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Sep 29 14:53:41 symfony [info] {sfWebDebugLogger} Configuration 26.03 ms (9)
+Sep 29 14:53:41 symfony [info] {sfWebDebugLogger} Factories 44.06 ms (1)
+Sep 29 14:53:41 symfony [info] {sfWebDebugLogger} Action "contacto/new" 41.96 ms (1)
+Sep 29 14:53:41 symfony [info] {sfWebDebugLogger} View "Success" for "contacto/new" 84.95 ms (1)
+Sep 29 14:53:41 symfony [info] {sfWebDebugLogger} Partial "contacto/_form" 56.31 ms (1)
+Sep 29 14:53:41 symfony [info] {sfWebDebugLogger} Database (Doctrine) 0.48 ms (2)
+Sep 29 14:53:41 symfony [info] {sfWebResponse} Send content (43896 o)
+Sep 29 14:56:38 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /contacto/new with parameters array (  'module' => 'contacto',  'action' => 'new',)
+Sep 29 14:56:38 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Sep 29 14:56:38 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Sep 29 14:56:38 symfony [info] {contactoActions} Call "contactoActions->executeNew()"
+Sep 29 14:56:38 symfony [info] {sfPHPView} Render "C:\xampp\htdocs\sfprojects\proyectosm\apps\frontend\modules/contacto/templates/newSuccess.php"
+Sep 29 14:56:38 symfony [info] {sfPartialView} Render "C:\xampp\htdocs\sfprojects\proyectosm\apps\frontend\modules/contacto/templates/_form.php"
+Sep 29 14:56:38 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+Sep 29 14:56:38 symfony [info] {Doctrine_Connection_Mysql} query : SELECT p.id AS p__id, p.nombre AS p__nombre, p.descrpicion AS p__descrpicion FROM proyecto p - ()
+Sep 29 14:56:38 symfony [info] {sfPHPView} Decorate content with "C:\xampp\htdocs\sfprojects\proyectosm\apps\frontend\templates/layout.php"
+Sep 29 14:56:38 symfony [info] {sfPHPView} Render "C:\xampp\htdocs\sfprojects\proyectosm\apps\frontend\templates/layout.php"
+Sep 29 14:56:38 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Sep 29 14:56:38 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Sep 29 14:56:38 symfony [info] {sfWebDebugLogger} Configuration 22.01 ms (9)
+Sep 29 14:56:38 symfony [info] {sfWebDebugLogger} Factories 48.48 ms (1)
+Sep 29 14:56:38 symfony [info] {sfWebDebugLogger} Action "contacto/new" 35.45 ms (1)
+Sep 29 14:56:38 symfony [info] {sfWebDebugLogger} View "Success" for "contacto/new" 74.49 ms (1)
+Sep 29 14:56:38 symfony [info] {sfWebDebugLogger} Partial "contacto/_form" 42.83 ms (1)
+Sep 29 14:56:38 symfony [info] {sfWebDebugLogger} Database (Doctrine) 0.48 ms (2)
+Sep 29 14:56:38 symfony [info] {sfWebResponse} Send content (43828 o)
+Sep 29 14:56:59 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /contacto/new with parameters array (  'module' => 'contacto',  'action' => 'new',)
+Sep 29 14:56:59 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Sep 29 14:56:59 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Sep 29 14:56:59 symfony [info] {contactoActions} Call "contactoActions->executeNew()"
+Sep 29 14:56:59 symfony [info] {sfPHPView} Render "C:\xampp\htdocs\sfprojects\proyectosm\apps\frontend\modules/contacto/templates/newSuccess.php"
+Sep 29 14:56:59 symfony [info] {sfPartialView} Render "C:\xampp\htdocs\sfprojects\proyectosm\apps\frontend\modules/contacto/templates/_form.php"
+Sep 29 14:56:59 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+Sep 29 14:56:59 symfony [info] {Doctrine_Connection_Mysql} query : SELECT p.id AS p__id, p.nombre AS p__nombre, p.descrpicion AS p__descrpicion FROM proyecto p - ()
+Sep 29 14:56:59 symfony [info] {sfPHPView} Decorate content with "C:\xampp\htdocs\sfprojects\proyectosm\apps\frontend\templates/layout.php"
+Sep 29 14:56:59 symfony [info] {sfPHPView} Render "C:\xampp\htdocs\sfprojects\proyectosm\apps\frontend\templates/layout.php"
+Sep 29 14:56:59 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Sep 29 14:56:59 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Sep 29 14:56:59 symfony [info] {sfWebDebugLogger} Configuration 30.39 ms (9)
+Sep 29 14:56:59 symfony [info] {sfWebDebugLogger} Factories 59.38 ms (1)
+Sep 29 14:56:59 symfony [info] {sfWebDebugLogger} Action "contacto/new" 37.78 ms (1)
+Sep 29 14:56:59 symfony [info] {sfWebDebugLogger} View "Success" for "contacto/new" 62.70 ms (1)
+Sep 29 14:56:59 symfony [info] {sfWebDebugLogger} Partial "contacto/_form" 36.81 ms (1)
+Sep 29 14:56:59 symfony [info] {sfWebDebugLogger} Database (Doctrine) 0.42 ms (2)
+Sep 29 14:56:59 symfony [info] {sfWebResponse} Send content (43829 o)
+Sep 29 14:58:41 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /contacto/new with parameters array (  'module' => 'contacto',  'action' => 'new',)
+Sep 29 14:58:41 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Sep 29 14:58:41 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Sep 29 14:58:41 symfony [info] {contactoActions} Call "contactoActions->executeNew()"
+Sep 29 14:58:41 symfony [info] {sfPHPView} Render "C:\xampp\htdocs\sfprojects\proyectosm\apps\frontend\modules/contacto/templates/newSuccess.php"
+Sep 29 14:58:41 symfony [info] {sfPartialView} Render "C:\xampp\htdocs\sfprojects\proyectosm\apps\frontend\modules/contacto/templates/_form.php"
+Sep 29 14:58:41 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+Sep 29 14:58:41 symfony [info] {Doctrine_Connection_Mysql} query : SELECT p.id AS p__id, p.nombre AS p__nombre, p.descrpicion AS p__descrpicion FROM proyecto p - ()
+Sep 29 14:58:41 symfony [info] {sfPHPView} Decorate content with "C:\xampp\htdocs\sfprojects\proyectosm\apps\frontend\templates/layout.php"
+Sep 29 14:58:41 symfony [info] {sfPHPView} Render "C:\xampp\htdocs\sfprojects\proyectosm\apps\frontend\templates/layout.php"
+Sep 29 14:58:41 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Sep 29 14:58:41 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Sep 29 14:58:41 symfony [info] {sfWebDebugLogger} Configuration 654.04 ms (9)
+Sep 29 14:58:41 symfony [info] {sfWebDebugLogger} Factories 229.85 ms (1)
+Sep 29 14:58:41 symfony [info] {sfWebDebugLogger} Action "contacto/new" 35.71 ms (1)
+Sep 29 14:58:41 symfony [info] {sfWebDebugLogger} View "Success" for "contacto/new" 96.73 ms (1)
+Sep 29 14:58:41 symfony [info] {sfWebDebugLogger} Partial "contacto/_form" 38.70 ms (1)
+Sep 29 14:58:41 symfony [info] {sfWebDebugLogger} Database (Doctrine) 0.44 ms (2)
+Sep 29 14:58:41 symfony [info] {sfWebResponse} Send content (43828 o)
+Sep 29 14:59:00 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /contacto/new with parameters array (  'module' => 'contacto',  'action' => 'new',)
+Sep 29 14:59:00 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Sep 29 14:59:00 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Sep 29 14:59:00 symfony [info] {contactoActions} Call "contactoActions->executeNew()"
+Sep 29 14:59:00 symfony [info] {sfPHPView} Render "C:\xampp\htdocs\sfprojects\proyectosm\apps\frontend\modules/contacto/templates/newSuccess.php"
+Sep 29 14:59:00 symfony [info] {sfPartialView} Render "C:\xampp\htdocs\sfprojects\proyectosm\apps\frontend\modules/contacto/templates/_form.php"
+Sep 29 14:59:00 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+Sep 29 14:59:00 symfony [info] {Doctrine_Connection_Mysql} query : SELECT p.id AS p__id, p.nombre AS p__nombre, p.descrpicion AS p__descrpicion FROM proyecto p - ()
+Sep 29 14:59:00 symfony [info] {sfPHPView} Decorate content with "C:\xampp\htdocs\sfprojects\proyectosm\apps\frontend\templates/layout.php"
+Sep 29 14:59:00 symfony [info] {sfPHPView} Render "C:\xampp\htdocs\sfprojects\proyectosm\apps\frontend\templates/layout.php"
+Sep 29 14:59:00 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Sep 29 14:59:00 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Sep 29 14:59:00 symfony [info] {sfWebDebugLogger} Configuration 28.59 ms (9)
+Sep 29 14:59:00 symfony [info] {sfWebDebugLogger} Factories 43.55 ms (1)
+Sep 29 14:59:00 symfony [info] {sfWebDebugLogger} Action "contacto/new" 28.78 ms (1)
+Sep 29 14:59:00 symfony [info] {sfWebDebugLogger} View "Success" for "contacto/new" 105.35 ms (1)
+Sep 29 14:59:00 symfony [info] {sfWebDebugLogger} Partial "contacto/_form" 75.58 ms (1)
+Sep 29 14:59:00 symfony [info] {sfWebDebugLogger} Database (Doctrine) 28.45 ms (2)
+Sep 29 14:59:01 symfony [info] {sfWebResponse} Send content (43832 o)
+Sep 29 14:59:04 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /contacto/new with parameters array (  'module' => 'contacto',  'action' => 'new',)
+Sep 29 14:59:04 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Sep 29 14:59:04 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Sep 29 14:59:04 symfony [info] {contactoActions} Call "contactoActions->executeNew()"
+Sep 29 14:59:04 symfony [info] {sfPHPView} Render "C:\xampp\htdocs\sfprojects\proyectosm\apps\frontend\modules/contacto/templates/newSuccess.php"
+Sep 29 14:59:04 symfony [info] {sfPartialView} Render "C:\xampp\htdocs\sfprojects\proyectosm\apps\frontend\modules/contacto/templates/_form.php"
+Sep 29 14:59:04 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+Sep 29 14:59:04 symfony [info] {Doctrine_Connection_Mysql} query : SELECT p.id AS p__id, p.nombre AS p__nombre, p.descrpicion AS p__descrpicion FROM proyecto p - ()
+Sep 29 14:59:04 symfony [info] {sfPHPView} Decorate content with "C:\xampp\htdocs\sfprojects\proyectosm\apps\frontend\templates/layout.php"
+Sep 29 14:59:04 symfony [info] {sfPHPView} Render "C:\xampp\htdocs\sfprojects\proyectosm\apps\frontend\templates/layout.php"
+Sep 29 14:59:04 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Sep 29 14:59:04 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Sep 29 14:59:04 symfony [info] {sfWebDebugLogger} Configuration 31.98 ms (9)
+Sep 29 14:59:04 symfony [info] {sfWebDebugLogger} Factories 41.62 ms (1)
+Sep 29 14:59:04 symfony [info] {sfWebDebugLogger} Action "contacto/new" 36.33 ms (1)
+Sep 29 14:59:04 symfony [info] {sfWebDebugLogger} View "Success" for "contacto/new" 71.56 ms (1)
+Sep 29 14:59:04 symfony [info] {sfWebDebugLogger} Partial "contacto/_form" 39.72 ms (1)
+Sep 29 14:59:04 symfony [info] {sfWebDebugLogger} Database (Doctrine) 0.56 ms (2)
+Sep 29 14:59:04 symfony [info] {sfWebResponse} Send content (43829 o)
+Sep 29 14:59:39 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /contacto/new with parameters array (  'module' => 'contacto',  'action' => 'new',)
+Sep 29 14:59:39 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Sep 29 14:59:39 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Sep 29 14:59:39 symfony [info] {contactoActions} Call "contactoActions->executeNew()"
+Sep 29 14:59:39 symfony [info] {sfPHPView} Render "C:\xampp\htdocs\sfprojects\proyectosm\apps\frontend\modules/contacto/templates/newSuccess.php"
+Sep 29 14:59:39 symfony [info] {sfPartialView} Render "C:\xampp\htdocs\sfprojects\proyectosm\apps\frontend\modules/contacto/templates/_form.php"
+Sep 29 14:59:39 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+Sep 29 14:59:39 symfony [info] {Doctrine_Connection_Mysql} query : SELECT p.id AS p__id, p.nombre AS p__nombre, p.descrpicion AS p__descrpicion FROM proyecto p - ()
+Sep 29 14:59:39 symfony [info] {sfPHPView} Decorate content with "C:\xampp\htdocs\sfprojects\proyectosm\apps\frontend\templates/layout.php"
+Sep 29 14:59:39 symfony [info] {sfPHPView} Render "C:\xampp\htdocs\sfprojects\proyectosm\apps\frontend\templates/layout.php"
+Sep 29 14:59:39 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Sep 29 14:59:39 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Sep 29 14:59:39 symfony [info] {sfWebDebugLogger} Configuration 36.67 ms (9)
+Sep 29 14:59:39 symfony [info] {sfWebDebugLogger} Factories 60.93 ms (1)
+Sep 29 14:59:39 symfony [info] {sfWebDebugLogger} Action "contacto/new" 52.12 ms (1)
+Sep 29 14:59:39 symfony [info] {sfWebDebugLogger} View "Success" for "contacto/new" 62.95 ms (1)
+Sep 29 14:59:39 symfony [info] {sfWebDebugLogger} Partial "contacto/_form" 36.45 ms (1)
+Sep 29 14:59:39 symfony [info] {sfWebDebugLogger} Database (Doctrine) 0.43 ms (2)
+Sep 29 14:59:39 symfony [info] {sfWebResponse} Send content (43797 o)
+Sep 29 15:03:51 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /contacto/new with parameters array (  'module' => 'contacto',  'action' => 'new',)
+Sep 29 15:03:52 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Sep 29 15:03:52 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Sep 29 15:03:52 symfony [info] {contactoActions} Call "contactoActions->executeNew()"
+Sep 29 15:03:52 symfony [info] {sfPHPView} Render "C:\xampp\htdocs\sfprojects\proyectosm\apps\frontend\modules/contacto/templates/newSuccess.php"
+Sep 29 15:03:52 symfony [info] {sfPartialView} Render "C:\xampp\htdocs\sfprojects\proyectosm\apps\frontend\modules/contacto/templates/_form.php"
+Sep 29 15:03:52 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+Sep 29 15:03:52 symfony [info] {Doctrine_Connection_Mysql} query : SELECT p.id AS p__id, p.nombre AS p__nombre, p.descrpicion AS p__descrpicion FROM proyecto p - ()
+Sep 29 15:03:52 symfony [info] {sfPHPView} Decorate content with "C:\xampp\htdocs\sfprojects\proyectosm\apps\frontend\templates/layout.php"
+Sep 29 15:03:52 symfony [info] {sfPHPView} Render "C:\xampp\htdocs\sfprojects\proyectosm\apps\frontend\templates/layout.php"
+Sep 29 15:03:52 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Sep 29 15:03:52 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Sep 29 15:03:52 symfony [info] {sfWebDebugLogger} Configuration 27.18 ms (9)
+Sep 29 15:03:52 symfony [info] {sfWebDebugLogger} Factories 1673.08 ms (1)
+Sep 29 15:03:52 symfony [info] {sfWebDebugLogger} Action "contacto/new" 35.66 ms (1)
+Sep 29 15:03:52 symfony [info] {sfWebDebugLogger} View "Success" for "contacto/new" 131.99 ms (1)
+Sep 29 15:03:52 symfony [info] {sfWebDebugLogger} Partial "contacto/_form" 39.00 ms (1)
+Sep 29 15:03:52 symfony [info] {sfWebDebugLogger} Database (Doctrine) 0.42 ms (2)
+Sep 29 15:03:52 symfony [info] {sfWebResponse} Send content (43829 o)
+Sep 29 17:35:55 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /contacto/new with parameters array (  'module' => 'contacto',  'action' => 'new',)
+Sep 29 17:35:56 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Sep 29 17:35:56 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Sep 29 17:35:56 symfony [info] {contactoActions} Call "contactoActions->executeNew()"
+Sep 29 17:35:57 symfony [info] {sfPHPView} Render "C:\xampp\htdocs\sfprojects\proyectosm\apps\frontend\modules/contacto/templates/newSuccess.php"
+Sep 29 17:35:57 symfony [info] {sfPartialView} Render "C:\xampp\htdocs\sfprojects\proyectosm\apps\frontend\modules/contacto/templates/_form.php"
+Sep 29 17:35:57 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+Sep 29 17:35:57 symfony [info] {Doctrine_Connection_Mysql} query : SELECT p.id AS p__id, p.nombre AS p__nombre, p.descrpicion AS p__descrpicion FROM proyecto p - ()
+Sep 29 17:35:57 symfony [info] {sfPHPView} Decorate content with "C:\xampp\htdocs\sfprojects\proyectosm\apps\frontend\templates/layout.php"
+Sep 29 17:35:57 symfony [info] {sfPHPView} Render "C:\xampp\htdocs\sfprojects\proyectosm\apps\frontend\templates/layout.php"
+Sep 29 17:35:57 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Sep 29 17:35:57 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Sep 29 17:35:57 symfony [info] {sfWebDebugLogger} Configuration 29.89 ms (9)
+Sep 29 17:35:57 symfony [info] {sfWebDebugLogger} Factories 1595.61 ms (1)
+Sep 29 17:35:57 symfony [info] {sfWebDebugLogger} Action "contacto/new" 47.99 ms (1)
+Sep 29 17:35:57 symfony [info] {sfWebDebugLogger} View "Success" for "contacto/new" 328.92 ms (1)
+Sep 29 17:35:57 symfony [info] {sfWebDebugLogger} Partial "contacto/_form" 71.71 ms (1)
+Sep 29 17:35:57 symfony [info] {sfWebDebugLogger} Database (Doctrine) 1.14 ms (2)
+Sep 29 17:35:57 symfony [info] {sfWebResponse} Send content (43819 o)
+Sep 29 17:36:02 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /contacto/municipio with parameters array (  'module' => 'contacto',  'action' => 'municipio',)
+Sep 29 17:36:02 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Sep 29 17:36:02 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Sep 29 17:36:02 symfony [info] {contactoActions} Call "contactoActions->executeMunicipio()"
+Sep 29 17:36:02 symfony [err] {sfRenderException} The template "municipioSuccess.php" does not exist or is unreadable in "".
+Sep 29 17:36:02 symfony [info] {sfWebResponse} Send status "HTTP/1.1 500 Internal Server Error"
+Sep 29 17:36:02 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Sep 29 17:36:03 symfony [info] {sfWebDebugLogger} Configuration 32.00 ms (9)
+Sep 29 17:36:03 symfony [info] {sfWebDebugLogger} Factories 57.34 ms (1)
+Sep 29 17:36:03 symfony [info] {sfWebDebugLogger} Action "contacto/municipio" 0.34 ms (1)
+Sep 29 17:36:03 symfony [info] {sfWebDebugLogger} View "Success" for "contacto/municipio" 280.99 ms (1)
+Sep 29 17:39:31 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /contacto/new with parameters array (  'module' => 'contacto',  'action' => 'new',)
+Sep 29 17:39:31 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Sep 29 17:39:31 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Sep 29 17:39:31 symfony [info] {contactoActions} Call "contactoActions->executeNew()"
+Sep 29 17:39:31 symfony [info] {sfPHPView} Render "C:\xampp\htdocs\sfprojects\proyectosm\apps\frontend\modules/contacto/templates/newSuccess.php"
+Sep 29 17:39:31 symfony [info] {sfPartialView} Render "C:\xampp\htdocs\sfprojects\proyectosm\apps\frontend\modules/contacto/templates/_form.php"
+Sep 29 17:39:31 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+Sep 29 17:39:31 symfony [info] {Doctrine_Connection_Mysql} query : SELECT p.id AS p__id, p.nombre AS p__nombre, p.descrpicion AS p__descrpicion FROM proyecto p - ()
+Sep 29 17:39:31 symfony [info] {sfPHPView} Decorate content with "C:\xampp\htdocs\sfprojects\proyectosm\apps\frontend\templates/layout.php"
+Sep 29 17:39:31 symfony [info] {sfPHPView} Render "C:\xampp\htdocs\sfprojects\proyectosm\apps\frontend\templates/layout.php"
+Sep 29 17:39:31 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Sep 29 17:39:31 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Sep 29 17:39:31 symfony [info] {sfWebDebugLogger} Configuration 26.33 ms (9)
+Sep 29 17:39:31 symfony [info] {sfWebDebugLogger} Factories 59.60 ms (1)
+Sep 29 17:39:31 symfony [info] {sfWebDebugLogger} Action "contacto/new" 33.81 ms (1)
+Sep 29 17:39:31 symfony [info] {sfWebDebugLogger} View "Success" for "contacto/new" 106.35 ms (1)
+Sep 29 17:39:31 symfony [info] {sfWebDebugLogger} Partial "contacto/_form" 84.38 ms (1)
+Sep 29 17:39:31 symfony [info] {sfWebDebugLogger} Database (Doctrine) 0.81 ms (2)
+Sep 29 17:39:31 symfony [info] {sfWebResponse} Send content (86774 o)
+Sep 29 17:45:25 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /contacto/new with parameters array (  'module' => 'contacto',  'action' => 'new',)
+Sep 29 17:45:26 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Sep 29 17:45:26 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Sep 29 17:45:26 symfony [info] {contactoActions} Call "contactoActions->executeNew()"
+Sep 29 17:45:26 symfony [info] {sfPHPView} Render "C:\xampp\htdocs\sfprojects\proyectosm\apps\frontend\modules/contacto/templates/newSuccess.php"
+Sep 29 17:45:26 symfony [info] {sfPartialView} Render "C:\xampp\htdocs\sfprojects\proyectosm\apps\frontend\modules/contacto/templates/_form.php"
+Sep 29 17:45:26 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+Sep 29 17:45:26 symfony [info] {Doctrine_Connection_Mysql} query : SELECT p.id AS p__id, p.nombre AS p__nombre, p.descrpicion AS p__descrpicion FROM proyecto p - ()
+Sep 29 17:45:26 symfony [info] {sfPHPView} Decorate content with "C:\xampp\htdocs\sfprojects\proyectosm\apps\frontend\templates/layout.php"
+Sep 29 17:45:26 symfony [info] {sfPHPView} Render "C:\xampp\htdocs\sfprojects\proyectosm\apps\frontend\templates/layout.php"
+Sep 29 17:45:26 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Sep 29 17:45:26 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Sep 29 17:45:26 symfony [info] {sfWebDebugLogger} Configuration 23.98 ms (9)
+Sep 29 17:45:26 symfony [info] {sfWebDebugLogger} Factories 60.40 ms (1)
+Sep 29 17:45:26 symfony [info] {sfWebDebugLogger} Action "contacto/new" 39.60 ms (1)
+Sep 29 17:45:26 symfony [info] {sfWebDebugLogger} View "Success" for "contacto/new" 115.82 ms (1)
+Sep 29 17:45:26 symfony [info] {sfWebDebugLogger} Partial "contacto/_form" 81.46 ms (1)
+Sep 29 17:45:26 symfony [info] {sfWebDebugLogger} Database (Doctrine) 0.98 ms (2)
+Sep 29 17:45:26 symfony [info] {sfWebResponse} Send content (86774 o)
+Sep 29 17:45:33 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /contacto/municipio with parameters array (  'module' => 'contacto',  'action' => 'municipio',)
+Sep 29 17:45:33 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Sep 29 17:45:33 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Sep 29 17:45:33 symfony [info] {contactoActions} Call "contactoActions->executeMunicipio()"
+Sep 29 17:45:33 symfony [notice] {sfWebDebugLogger}  Notice at C:\xampp\htdocs\sfprojects\proyectosm\lib\vendor\symfony\lib\filter\sfExecutionFilter.class.php on line 45 (Array to string conversion)
+Sep 29 17:45:33 symfony [notice] {sfWebDebugLogger}  Notice at C:\xampp\htdocs\sfprojects\proyectosm\lib\vendor\symfony\lib\controller\sfController.class.php on line 347 (Array to string conversion)
+Sep 29 17:45:33 symfony [notice] {sfWebDebugLogger}  Notice at C:\xampp\htdocs\sfprojects\proyectosm\cache\frontend\dev\config\modules_contacto_config_view.yml.php on line 8 (Array to string conversion)
+Sep 29 17:45:33 symfony [err] {sfRenderException} The template "municipioArray.php" does not exist or is unreadable in "".
+Sep 29 17:45:33 symfony [info] {sfWebResponse} Send status "HTTP/1.1 500 Internal Server Error"
+Sep 29 17:45:33 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Sep 29 17:45:33 symfony [info] {sfWebDebugLogger} Configuration 24.05 ms (9)
+Sep 29 17:45:33 symfony [info] {sfWebDebugLogger} Factories 46.25 ms (1)
+Sep 29 17:45:33 symfony [info] {sfWebDebugLogger} Action "contacto/municipio" 0.32 ms (1)
+Sep 29 17:45:33 symfony [info] {sfWebDebugLogger} View "Array" for "contacto/municipio" 64.97 ms (1)
+Sep 29 17:49:37 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /contacto/new with parameters array (  'module' => 'contacto',  'action' => 'new',)
+Sep 29 17:49:37 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Sep 29 17:49:37 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Sep 29 17:49:37 symfony [info] {contactoActions} Call "contactoActions->executeNew()"
+Sep 29 17:49:37 symfony [notice] {sfWebDebugLogger}  Notice at C:\xampp\htdocs\sfprojects\proyectosm\apps\frontend\modules\contacto\actions\actions.class.php on line 32 (Undefined index: id)
+Sep 29 17:49:37 symfony [notice] {sfWebDebugLogger}  Notice at C:\xampp\htdocs\sfprojects\proyectosm\apps\frontend\modules\contacto\actions\actions.class.php on line 1219 (Undefined index: )
+Sep 29 17:49:37 symfony [info] {sfPHPView} Render "C:\xampp\htdocs\sfprojects\proyectosm\apps\frontend\modules/contacto/templates/newSuccess.php"
+Sep 29 17:49:37 symfony [info] {sfPartialView} Render "C:\xampp\htdocs\sfprojects\proyectosm\apps\frontend\modules/contacto/templates/_form.php"
+Sep 29 17:49:37 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+Sep 29 17:49:37 symfony [info] {Doctrine_Connection_Mysql} query : SELECT p.id AS p__id, p.nombre AS p__nombre, p.descrpicion AS p__descrpicion FROM proyecto p - ()
+Sep 29 17:49:37 symfony [info] {sfPHPView} Decorate content with "C:\xampp\htdocs\sfprojects\proyectosm\apps\frontend\templates/layout.php"
+Sep 29 17:49:37 symfony [info] {sfPHPView} Render "C:\xampp\htdocs\sfprojects\proyectosm\apps\frontend\templates/layout.php"
+Sep 29 17:49:37 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Sep 29 17:49:37 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Sep 29 17:49:37 symfony [info] {sfWebDebugLogger} Configuration 22.42 ms (9)
+Sep 29 17:49:37 symfony [info] {sfWebDebugLogger} Factories 55.05 ms (1)
+Sep 29 17:49:37 symfony [info] {sfWebDebugLogger} Action "contacto/new" 54.53 ms (1)
+Sep 29 17:49:37 symfony [info] {sfWebDebugLogger} View "Success" for "contacto/new" 125.20 ms (1)
+Sep 29 17:49:37 symfony [info] {sfWebDebugLogger} Partial "contacto/_form" 86.02 ms (1)
+Sep 29 17:49:37 symfony [info] {sfWebDebugLogger} Database (Doctrine) 0.76 ms (2)
+Sep 29 17:49:37 symfony [info] {sfWebResponse} Send content (86774 o)
+Sep 29 17:51:50 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /contacto/new with parameters array (  'module' => 'contacto',  'action' => 'new',)
+Sep 29 17:51:50 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Sep 29 17:51:50 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Sep 29 17:51:50 symfony [info] {contactoActions} Call "contactoActions->executeNew()"
+Sep 29 17:51:50 symfony [info] {sfPHPView} Render "C:\xampp\htdocs\sfprojects\proyectosm\apps\frontend\modules/contacto/templates/newSuccess.php"
+Sep 29 17:51:50 symfony [info] {sfPartialView} Render "C:\xampp\htdocs\sfprojects\proyectosm\apps\frontend\modules/contacto/templates/_form.php"
+Sep 29 17:51:50 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+Sep 29 17:51:50 symfony [info] {Doctrine_Connection_Mysql} query : SELECT p.id AS p__id, p.nombre AS p__nombre, p.descrpicion AS p__descrpicion FROM proyecto p - ()
+Sep 29 17:51:50 symfony [info] {sfPHPView} Decorate content with "C:\xampp\htdocs\sfprojects\proyectosm\apps\frontend\templates/layout.php"
+Sep 29 17:51:50 symfony [info] {sfPHPView} Render "C:\xampp\htdocs\sfprojects\proyectosm\apps\frontend\templates/layout.php"
+Sep 29 17:51:50 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Sep 29 17:51:50 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Sep 29 17:51:50 symfony [info] {sfWebDebugLogger} Configuration 22.20 ms (9)
+Sep 29 17:51:50 symfony [info] {sfWebDebugLogger} Factories 43.34 ms (1)
+Sep 29 17:51:50 symfony [info] {sfWebDebugLogger} Action "contacto/new" 25.77 ms (1)
+Sep 29 17:51:50 symfony [info] {sfWebDebugLogger} View "Success" for "contacto/new" 112.27 ms (1)
+Sep 29 17:51:50 symfony [info] {sfWebDebugLogger} Partial "contacto/_form" 91.46 ms (1)
+Sep 29 17:51:50 symfony [info] {sfWebDebugLogger} Database (Doctrine) 1.02 ms (2)
+Sep 29 17:51:50 symfony [info] {sfWebResponse} Send content (86773 o)
+Sep 29 17:56:46 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /contacto/new with parameters array (  'module' => 'contacto',  'action' => 'new',)
+Sep 29 17:56:46 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Sep 29 17:56:46 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Sep 29 17:56:46 symfony [info] {contactoActions} Call "contactoActions->executeNew()"
+Sep 29 17:56:46 symfony [info] {sfPHPView} Render "C:\xampp\htdocs\sfprojects\proyectosm\apps\frontend\modules/contacto/templates/newSuccess.php"
+Sep 29 17:56:46 symfony [info] {sfPartialView} Render "C:\xampp\htdocs\sfprojects\proyectosm\apps\frontend\modules/contacto/templates/_form.php"
+Sep 29 17:56:46 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+Sep 29 17:56:46 symfony [info] {Doctrine_Connection_Mysql} query : SELECT p.id AS p__id, p.nombre AS p__nombre, p.descrpicion AS p__descrpicion FROM proyecto p - ()
+Sep 29 17:56:46 symfony [info] {sfPHPView} Decorate content with "C:\xampp\htdocs\sfprojects\proyectosm\apps\frontend\templates/layout.php"
+Sep 29 17:56:46 symfony [info] {sfPHPView} Render "C:\xampp\htdocs\sfprojects\proyectosm\apps\frontend\templates/layout.php"
+Sep 29 17:56:46 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Sep 29 17:56:46 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Sep 29 17:56:46 symfony [info] {sfWebDebugLogger} Configuration 23.82 ms (9)
+Sep 29 17:56:46 symfony [info] {sfWebDebugLogger} Factories 44.92 ms (1)
+Sep 29 17:56:46 symfony [info] {sfWebDebugLogger} Action "contacto/new" 50.48 ms (1)
+Sep 29 17:56:46 symfony [info] {sfWebDebugLogger} View "Success" for "contacto/new" 129.90 ms (1)
+Sep 29 17:56:46 symfony [info] {sfWebDebugLogger} Partial "contacto/_form" 88.20 ms (1)
+Sep 29 17:56:46 symfony [info] {sfWebDebugLogger} Database (Doctrine) 0.75 ms (2)
+Sep 29 17:56:46 symfony [info] {sfWebResponse} Send content (86332 o)
+Sep 29 17:56:53 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /contacto/new with parameters array (  'module' => 'contacto',  'action' => 'new',)
+Sep 29 17:56:53 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Sep 29 17:56:53 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Sep 29 17:56:53 symfony [info] {contactoActions} Call "contactoActions->executeNew()"
+Sep 29 17:56:53 symfony [info] {sfPHPView} Render "C:\xampp\htdocs\sfprojects\proyectosm\apps\frontend\modules/contacto/templates/newSuccess.php"
+Sep 29 17:56:53 symfony [info] {sfPartialView} Render "C:\xampp\htdocs\sfprojects\proyectosm\apps\frontend\modules/contacto/templates/_form.php"
+Sep 29 17:56:53 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+Sep 29 17:56:53 symfony [info] {Doctrine_Connection_Mysql} query : SELECT p.id AS p__id, p.nombre AS p__nombre, p.descrpicion AS p__descrpicion FROM proyecto p - ()
+Sep 29 17:56:53 symfony [info] {sfPHPView} Decorate content with "C:\xampp\htdocs\sfprojects\proyectosm\apps\frontend\templates/layout.php"
+Sep 29 17:56:53 symfony [info] {sfPHPView} Render "C:\xampp\htdocs\sfprojects\proyectosm\apps\frontend\templates/layout.php"
+Sep 29 17:56:53 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Sep 29 17:56:53 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Sep 29 17:56:53 symfony [info] {sfWebDebugLogger} Configuration 27.74 ms (9)
+Sep 29 17:56:53 symfony [info] {sfWebDebugLogger} Factories 61.57 ms (1)
+Sep 29 17:56:53 symfony [info] {sfWebDebugLogger} Action "contacto/new" 43.70 ms (1)
+Sep 29 17:56:53 symfony [info] {sfWebDebugLogger} View "Success" for "contacto/new" 93.57 ms (1)
+Sep 29 17:56:53 symfony [info] {sfWebDebugLogger} Partial "contacto/_form" 63.66 ms (1)
+Sep 29 17:56:53 symfony [info] {sfWebDebugLogger} Database (Doctrine) 0.67 ms (2)
+Sep 29 17:56:53 symfony [info] {sfWebResponse} Send content (86331 o)
+Sep 29 17:57:01 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /contacto/Program with parameters array (  'module' => 'contacto',  'action' => 'Program',)
+Sep 29 17:57:01 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Sep 29 17:57:01 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Sep 29 17:57:01 symfony [info] {contactoActions} Call "contactoActions->executeProgram()"
+Sep 29 17:57:01 symfony [err] {sfRenderException} The template "_result.php" does not exist or is unreadable in "".
+Sep 29 17:57:01 symfony [info] {sfWebResponse} Send status "HTTP/1.1 500 Internal Server Error"
+Sep 29 17:57:01 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Sep 29 17:57:01 symfony [info] {sfWebDebugLogger} Configuration 20.01 ms (8)
+Sep 29 17:57:01 symfony [info] {sfWebDebugLogger} Factories 59.54 ms (1)
+Sep 29 17:57:01 symfony [info] {sfWebDebugLogger} Action "contacto/Program" 105.07 ms (1)
+Sep 29 17:57:01 symfony [info] {sfWebDebugLogger} Partial "contacto/_result" 99.49 ms (1)

@@ -1,0 +1,14 @@
+CREATE TABLE actividad (id INT AUTO_INCREMENT, idarea INT NOT NULL, idusuario INT NOT NULL, nombre VARCHAR(200) NOT NULL, descripcion VARCHAR(200), fechacreacion DATE NOT NULL, fechacompletada DATE, porcentajeavance INT NOT NULL, estado VARCHAR(100) NOT NULL, INDEX idarea_idx (idarea), PRIMARY KEY(id)) ENGINE = INNODB;
+CREATE TABLE area_produccion (id INT AUTO_INCREMENT, nombre VARCHAR(150) NOT NULL, PRIMARY KEY(id)) ENGINE = INNODB;
+CREATE TABLE contacto (id INT AUTO_INCREMENT, idproyecto INT NOT NULL, nombre VARCHAR(150) NOT NULL, telefono VARCHAR(11) NOT NULL, pais VARCHAR(50) NOT NULL, departamento VARCHAR(50) NOT NULL, municipio VARCHAR(50) NOT NULL, INDEX idproyecto_idx (idproyecto), PRIMARY KEY(id)) ENGINE = INNODB;
+CREATE TABLE etapa_proyecto (id INT AUTO_INCREMENT, idetaparef INT NOT NULL, idproyecto INT NOT NULL, informacion TEXT NOT NULL, inicio DATE NOT NULL, fin DATE NOT NULL, INDEX idproyecto_idx (idproyecto), INDEX idetaparef_idx (idetaparef), PRIMARY KEY(id)) ENGINE = INNODB;
+CREATE TABLE etapa_ref (id INT AUTO_INCREMENT, nombre VARCHAR(150) NOT NULL, PRIMARY KEY(id)) ENGINE = INNODB;
+CREATE TABLE proyecto (id INT AUTO_INCREMENT, nombre VARCHAR(150) NOT NULL, descrpicion VARCHAR(150) NOT NULL, PRIMARY KEY(id)) ENGINE = INNODB;
+CREATE TABLE rol (id INT AUTO_INCREMENT, nombre VARCHAR(50) NOT NULL, PRIMARY KEY(id)) ENGINE = INNODB;
+CREATE TABLE usuario (id INT AUTO_INCREMENT, idareaproduccion INT, nombre VARCHAR(150) NOT NULL, telefono VARCHAR(11) NOT NULL, rol INT NOT NULL, INDEX rol_idx (rol), INDEX idareaproduccion_idx (idareaproduccion), PRIMARY KEY(id)) ENGINE = INNODB;
+ALTER TABLE actividad ADD CONSTRAINT actividad_idarea_area_produccion_id FOREIGN KEY (idarea) REFERENCES area_produccion(id);
+ALTER TABLE contacto ADD CONSTRAINT contacto_idproyecto_proyecto_id FOREIGN KEY (idproyecto) REFERENCES proyecto(id);
+ALTER TABLE etapa_proyecto ADD CONSTRAINT etapa_proyecto_idproyecto_proyecto_id FOREIGN KEY (idproyecto) REFERENCES proyecto(id);
+ALTER TABLE etapa_proyecto ADD CONSTRAINT etapa_proyecto_idetaparef_etapa_ref_id FOREIGN KEY (idetaparef) REFERENCES etapa_ref(id);
+ALTER TABLE usuario ADD CONSTRAINT usuario_rol_rol_id FOREIGN KEY (rol) REFERENCES rol(id);
+ALTER TABLE usuario ADD CONSTRAINT usuario_idareaproduccion_area_produccion_id FOREIGN KEY (idareaproduccion) REFERENCES area_produccion(id);
