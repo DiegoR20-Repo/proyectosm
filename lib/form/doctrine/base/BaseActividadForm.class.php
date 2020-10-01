@@ -16,7 +16,7 @@ abstract class BaseActividadForm extends BaseFormDoctrine
   {
     $this->setWidgets(array(
       'id'               => new sfWidgetFormInputHidden(),
-      'idarea'           => new sfWidgetFormDoctrineChoice(array('model' => $this->getRelatedModelName('AreaProduccion'), 'add_empty' => false)),
+      'idarea'           => new sfWidgetFormInputText(),
       'idusuario'        => new sfWidgetFormInputText(),
       'nombre'           => new sfWidgetFormInputText(),
       'descripcion'      => new sfWidgetFormInputText(),
@@ -28,7 +28,7 @@ abstract class BaseActividadForm extends BaseFormDoctrine
 
     $this->setValidators(array(
       'id'               => new sfValidatorChoice(array('choices' => array($this->getObject()->get('id')), 'empty_value' => $this->getObject()->get('id'), 'required' => false)),
-      'idarea'           => new sfValidatorDoctrineChoice(array('model' => $this->getRelatedModelName('AreaProduccion'))),
+      'idarea'           => new sfValidatorInteger(),
       'idusuario'        => new sfValidatorInteger(),
       'nombre'           => new sfValidatorString(array('max_length' => 200)),
       'descripcion'      => new sfValidatorString(array('max_length' => 200, 'required' => false)),

@@ -16,28 +16,25 @@ Doctrine_Manager::getInstance()->bindComponent('Actividad', 'doctrine');
  * @property date $fechacompletada
  * @property integer $porcentajeavance
  * @property string $estado
- * @property AreaProduccion $AreaProduccion
  * 
- * @method integer        getId()               Returns the current record's "id" value
- * @method integer        getIdarea()           Returns the current record's "idarea" value
- * @method integer        getIdusuarIo()        Returns the current record's "idusuario" value
- * @method string         getNombre()           Returns the current record's "nombre" value
- * @method string         getDescripcion()      Returns the current record's "descripcion" value
- * @method date           getFechacreacion()    Returns the current record's "fechacreacion" value
- * @method date           getFechacompletada()  Returns the current record's "fechacompletada" value
- * @method integer        getPorcentajeavance() Returns the current record's "porcentajeavance" value
- * @method string         getEstado()           Returns the current record's "estado" value
- * @method AreaProduccion getAreaProduccion()   Returns the current record's "AreaProduccion" value
- * @method Actividad      setId()               Sets the current record's "id" value
- * @method Actividad      setIdarea()           Sets the current record's "idarea" value
- * @method Actividad      setIdusuarIo()        Sets the current record's "idusuario" value
- * @method Actividad      setNombre()           Sets the current record's "nombre" value
- * @method Actividad      setDescripcion()      Sets the current record's "descripcion" value
- * @method Actividad      setFechacreacion()    Sets the current record's "fechacreacion" value
- * @method Actividad      setFechacompletada()  Sets the current record's "fechacompletada" value
- * @method Actividad      setPorcentajeavance() Sets the current record's "porcentajeavance" value
- * @method Actividad      setEstado()           Sets the current record's "estado" value
- * @method Actividad      setAreaProduccion()   Sets the current record's "AreaProduccion" value
+ * @method integer   getId()               Returns the current record's "id" value
+ * @method integer   getIdarea()           Returns the current record's "idarea" value
+ * @method integer   getIdusuarIo()        Returns the current record's "idusuario" value
+ * @method string    getNombre()           Returns the current record's "nombre" value
+ * @method string    getDescripcion()      Returns the current record's "descripcion" value
+ * @method date      getFechacreacion()    Returns the current record's "fechacreacion" value
+ * @method date      getFechacompletada()  Returns the current record's "fechacompletada" value
+ * @method integer   getPorcentajeavance() Returns the current record's "porcentajeavance" value
+ * @method string    getEstado()           Returns the current record's "estado" value
+ * @method Actividad setId()               Sets the current record's "id" value
+ * @method Actividad setIdarea()           Sets the current record's "idarea" value
+ * @method Actividad setIdusuarIo()        Sets the current record's "idusuario" value
+ * @method Actividad setNombre()           Sets the current record's "nombre" value
+ * @method Actividad setDescripcion()      Sets the current record's "descripcion" value
+ * @method Actividad setFechacreacion()    Sets the current record's "fechacreacion" value
+ * @method Actividad setFechacompletada()  Sets the current record's "fechacompletada" value
+ * @method Actividad setPorcentajeavance() Sets the current record's "porcentajeavance" value
+ * @method Actividad setEstado()           Sets the current record's "estado" value
  * 
  * @package    proyectosm
  * @subpackage model
@@ -134,8 +131,6 @@ abstract class BaseActividad extends sfDoctrineRecord
     public function setUp()
     {
         parent::setUp();
-        $this->hasOne('AreaProduccion', array(
-             'local' => 'idarea',
-             'foreign' => 'id'));
+        
     }
 }

@@ -13,7 +13,7 @@ abstract class BaseContactoFormFilter extends BaseFormFilterDoctrine
   public function setup()
   {
     $this->setWidgets(array(
-      'idproyecto'   => new sfWidgetFormDoctrineChoice(array('model' => $this->getRelatedModelName('Proyecto'), 'add_empty' => true)),
+      'idproyecto'   => new sfWidgetFormFilterInput(array('with_empty' => false)),
       'nombre'       => new sfWidgetFormFilterInput(array('with_empty' => false)),
       'telefono'     => new sfWidgetFormFilterInput(array('with_empty' => false)),
       'pais'         => new sfWidgetFormFilterInput(array('with_empty' => false)),
@@ -22,7 +22,7 @@ abstract class BaseContactoFormFilter extends BaseFormFilterDoctrine
     ));
 
     $this->setValidators(array(
-      'idproyecto'   => new sfValidatorDoctrineChoice(array('required' => false, 'model' => $this->getRelatedModelName('Proyecto'), 'column' => 'id')),
+      'idproyecto'   => new sfValidatorSchemaFilter('text', new sfValidatorInteger(array('required' => false))),
       'nombre'       => new sfValidatorPass(array('required' => false)),
       'telefono'     => new sfValidatorPass(array('required' => false)),
       'pais'         => new sfValidatorPass(array('required' => false)),
@@ -48,7 +48,7 @@ abstract class BaseContactoFormFilter extends BaseFormFilterDoctrine
   {
     return array(
       'id'           => 'Number',
-      'idproyecto'   => 'ForeignKey',
+      'idproyecto'   => 'Number',
       'nombre'       => 'Text',
       'telefono'     => 'Text',
       'pais'         => 'Text',

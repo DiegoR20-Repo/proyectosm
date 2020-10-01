@@ -12,32 +12,17 @@ Doctrine_Manager::getInstance()->bindComponent('Usuario', 'doctrine');
  * @property string $nombre
  * @property string $telefono
  * @property integer $rol
- * @property Rol $Rol
- * @property Rol $Rol_3
- * @property Areaproduccion $Areaproduccion
- * @property Doctrine_Collection $Actividad
- * @property Doctrine_Collection $Actividad_4
  * 
- * @method integer             getId()               Returns the current record's "id" value
- * @method integer             getIdareaproduccion() Returns the current record's "idareaproduccion" value
- * @method string              getNombre()           Returns the current record's "nombre" value
- * @method string              getTelefono()         Returns the current record's "telefono" value
- * @method integer             getRol()              Returns the current record's "rol" value
- * @method Rol                 getRol()              Returns the current record's "Rol" value
- * @method Rol                 getRol3()             Returns the current record's "Rol_3" value
- * @method Areaproduccion      getAreaproduccion()   Returns the current record's "Areaproduccion" value
- * @method Doctrine_Collection getActividad()        Returns the current record's "Actividad" collection
- * @method Doctrine_Collection getActividad4()       Returns the current record's "Actividad_4" collection
- * @method Usuario             setId()               Sets the current record's "id" value
- * @method Usuario             setIdareaproduccion() Sets the current record's "idareaproduccion" value
- * @method Usuario             setNombre()           Sets the current record's "nombre" value
- * @method Usuario             setTelefono()         Sets the current record's "telefono" value
- * @method Usuario             setRol()              Sets the current record's "rol" value
- * @method Usuario             setRol()              Sets the current record's "Rol" value
- * @method Usuario             setRol3()             Sets the current record's "Rol_3" value
- * @method Usuario             setAreaproduccion()   Sets the current record's "Areaproduccion" value
- * @method Usuario             setActividad()        Sets the current record's "Actividad" collection
- * @method Usuario             setActividad4()       Sets the current record's "Actividad_4" collection
+ * @method integer getId()               Returns the current record's "id" value
+ * @method integer getIdareaproduccIon() Returns the current record's "idareaproduccion" value
+ * @method string  getNombre()           Returns the current record's "nombre" value
+ * @method string  getTelefono()         Returns the current record's "telefono" value
+ * @method integer getRol()              Returns the current record's "rol" value
+ * @method Usuario setId()               Sets the current record's "id" value
+ * @method Usuario setIdareaproduccIon() Sets the current record's "idareaproduccion" value
+ * @method Usuario setNombre()           Sets the current record's "nombre" value
+ * @method Usuario setTelefono()         Sets the current record's "telefono" value
+ * @method Usuario setRol()              Sets the current record's "rol" value
  * 
  * @package    proyectosm
  * @subpackage model
@@ -98,24 +83,6 @@ abstract class BaseUsuario extends sfDoctrineRecord
     public function setUp()
     {
         parent::setUp();
-        $this->hasOne('Rol', array(
-             'local' => 'rol',
-             'foreign' => 'id'));
-
-        $this->hasOne('Rol as Rol_3', array(
-             'local' => 'rol',
-             'foreign' => 'id'));
-
-        $this->hasOne('Areaproduccion', array(
-             'local' => 'idareaproduccion',
-             'foreign' => 'id'));
-
-        $this->hasMany('Actividad', array(
-             'local' => 'id',
-             'foreign' => 'idusuario'));
-
-        $this->hasMany('Actividad as Actividad_4', array(
-             'local' => 'id',
-             'foreign' => 'idusuario'));
+        
     }
 }

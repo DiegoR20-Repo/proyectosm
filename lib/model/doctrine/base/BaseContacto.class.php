@@ -14,7 +14,6 @@ Doctrine_Manager::getInstance()->bindComponent('Contacto', 'doctrine');
  * @property string $pais
  * @property string $departamento
  * @property string $municipio
- * @property Proyecto $Proyecto
  * 
  * @method integer  getId()           Returns the current record's "id" value
  * @method integer  getIdproyecto()   Returns the current record's "idproyecto" value
@@ -23,7 +22,6 @@ Doctrine_Manager::getInstance()->bindComponent('Contacto', 'doctrine');
  * @method string   getPais()         Returns the current record's "pais" value
  * @method string   getDepartamento() Returns the current record's "departamento" value
  * @method string   getMunicipio()    Returns the current record's "municipio" value
- * @method Proyecto getProyecto()     Returns the current record's "Proyecto" value
  * @method Contacto setId()           Sets the current record's "id" value
  * @method Contacto setIdproyecto()   Sets the current record's "idproyecto" value
  * @method Contacto setNombre()       Sets the current record's "nombre" value
@@ -31,7 +29,6 @@ Doctrine_Manager::getInstance()->bindComponent('Contacto', 'doctrine');
  * @method Contacto setPais()         Sets the current record's "pais" value
  * @method Contacto setDepartamento() Sets the current record's "departamento" value
  * @method Contacto setMunicipio()    Sets the current record's "municipio" value
- * @method Contacto setProyecto()     Sets the current record's "Proyecto" value
  * 
  * @package    proyectosm
  * @subpackage model
@@ -110,8 +107,6 @@ abstract class BaseContacto extends sfDoctrineRecord
     public function setUp()
     {
         parent::setUp();
-        $this->hasOne('Proyecto', array(
-             'local' => 'idproyecto',
-             'foreign' => 'id'));
+        
     }
 }

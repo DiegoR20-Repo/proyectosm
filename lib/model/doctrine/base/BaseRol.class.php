@@ -9,17 +9,11 @@ Doctrine_Manager::getInstance()->bindComponent('Rol', 'doctrine');
  * 
  * @property integer $id
  * @property string $nombre
- * @property Doctrine_Collection $Usuario
- * @property Doctrine_Collection $Usuario_3
  * 
- * @method integer             getId()        Returns the current record's "id" value
- * @method string              getNombre()    Returns the current record's "nombre" value
- * @method Doctrine_Collection getUsuario()   Returns the current record's "Usuario" collection
- * @method Doctrine_Collection getUsuario3()  Returns the current record's "Usuario_3" collection
- * @method Rol                 setId()        Sets the current record's "id" value
- * @method Rol                 setNombre()    Sets the current record's "nombre" value
- * @method Rol                 setUsuario()   Sets the current record's "Usuario" collection
- * @method Rol                 setUsuario3()  Sets the current record's "Usuario_3" collection
+ * @method integer getId()     Returns the current record's "id" value
+ * @method string  getNombre() Returns the current record's "nombre" value
+ * @method Rol     setId()     Sets the current record's "id" value
+ * @method Rol     setNombre() Sets the current record's "nombre" value
  * 
  * @package    proyectosm
  * @subpackage model
@@ -53,12 +47,6 @@ abstract class BaseRol extends sfDoctrineRecord
     public function setUp()
     {
         parent::setUp();
-        $this->hasMany('Usuario', array(
-             'local' => 'id',
-             'foreign' => 'rol'));
-
-        $this->hasMany('Usuario as Usuario_3', array(
-             'local' => 'id',
-             'foreign' => 'rol'));
+        
     }
 }

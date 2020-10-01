@@ -16,18 +16,18 @@ abstract class BaseUsuarioForm extends BaseFormDoctrine
   {
     $this->setWidgets(array(
       'id'               => new sfWidgetFormInputHidden(),
-      'idareaproduccion' => new sfWidgetFormDoctrineChoice(array('model' => $this->getRelatedModelName('Areaproduccion'), 'add_empty' => true)),
+      'idareaproduccion' => new sfWidgetFormInputText(),
       'nombre'           => new sfWidgetFormInputText(),
       'telefono'         => new sfWidgetFormInputText(),
-      'rol'              => new sfWidgetFormDoctrineChoice(array('model' => $this->getRelatedModelName('Rol'), 'add_empty' => false)),
+      'rol'              => new sfWidgetFormInputText(),
     ));
 
     $this->setValidators(array(
       'id'               => new sfValidatorChoice(array('choices' => array($this->getObject()->get('id')), 'empty_value' => $this->getObject()->get('id'), 'required' => false)),
-      'idareaproduccion' => new sfValidatorDoctrineChoice(array('model' => $this->getRelatedModelName('Areaproduccion'), 'required' => false)),
+      'idareaproduccion' => new sfValidatorInteger(array('required' => false)),
       'nombre'           => new sfValidatorString(array('max_length' => 150)),
       'telefono'         => new sfValidatorString(array('max_length' => 11)),
-      'rol'              => new sfValidatorDoctrineChoice(array('model' => $this->getRelatedModelName('Rol'))),
+      'rol'              => new sfValidatorInteger(),
     ));
 
     $this->widgetSchema->setNameFormat('usuario[%s]');

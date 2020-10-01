@@ -13,17 +13,17 @@ abstract class BaseUsuarioFormFilter extends BaseFormFilterDoctrine
   public function setup()
   {
     $this->setWidgets(array(
-      'idareaproduccion' => new sfWidgetFormDoctrineChoice(array('model' => $this->getRelatedModelName('Areaproduccion'), 'add_empty' => true)),
+      'idareaproduccion' => new sfWidgetFormFilterInput(),
       'nombre'           => new sfWidgetFormFilterInput(array('with_empty' => false)),
       'telefono'         => new sfWidgetFormFilterInput(array('with_empty' => false)),
-      'rol'              => new sfWidgetFormDoctrineChoice(array('model' => $this->getRelatedModelName('Rol'), 'add_empty' => true)),
+      'rol'              => new sfWidgetFormFilterInput(array('with_empty' => false)),
     ));
 
     $this->setValidators(array(
-      'idareaproduccion' => new sfValidatorDoctrineChoice(array('required' => false, 'model' => $this->getRelatedModelName('Areaproduccion'), 'column' => 'id')),
+      'idareaproduccion' => new sfValidatorSchemaFilter('text', new sfValidatorInteger(array('required' => false))),
       'nombre'           => new sfValidatorPass(array('required' => false)),
       'telefono'         => new sfValidatorPass(array('required' => false)),
-      'rol'              => new sfValidatorDoctrineChoice(array('required' => false, 'model' => $this->getRelatedModelName('Rol'), 'column' => 'id')),
+      'rol'              => new sfValidatorSchemaFilter('text', new sfValidatorInteger(array('required' => false))),
     ));
 
     $this->widgetSchema->setNameFormat('usuario_filters[%s]');
@@ -44,10 +44,10 @@ abstract class BaseUsuarioFormFilter extends BaseFormFilterDoctrine
   {
     return array(
       'id'               => 'Number',
-      'idareaproduccion' => 'ForeignKey',
+      'idareaproduccion' => 'Number',
       'nombre'           => 'Text',
       'telefono'         => 'Text',
-      'rol'              => 'ForeignKey',
+      'rol'              => 'Number',
     );
   }
 }

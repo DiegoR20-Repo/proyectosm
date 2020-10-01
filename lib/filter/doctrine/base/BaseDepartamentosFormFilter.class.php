@@ -1,26 +1,26 @@
 <?php
 
 /**
- * EtapaRef filter form base class.
+ * Departamentos filter form base class.
  *
  * @package    proyectosm
  * @subpackage filter
  * @author     Your name here
  * @version    SVN: $Id: sfDoctrineFormFilterGeneratedTemplate.php 29570 2010-05-21 14:49:47Z Kris.Wallsmith $
  */
-abstract class BaseEtapaRefFormFilter extends BaseFormFilterDoctrine
+abstract class BaseDepartamentosFormFilter extends BaseFormFilterDoctrine
 {
   public function setup()
   {
     $this->setWidgets(array(
-      'nombre' => new sfWidgetFormFilterInput(array('with_empty' => false)),
+      'departamento'    => new sfWidgetFormFilterInput(array('with_empty' => false)),
     ));
 
     $this->setValidators(array(
-      'nombre' => new sfValidatorPass(array('required' => false)),
+      'departamento'    => new sfValidatorPass(array('required' => false)),
     ));
 
-    $this->widgetSchema->setNameFormat('etapa_ref_filters[%s]');
+    $this->widgetSchema->setNameFormat('departamentos_filters[%s]');
 
     $this->errorSchema = new sfValidatorErrorSchema($this->validatorSchema);
 
@@ -31,14 +31,14 @@ abstract class BaseEtapaRefFormFilter extends BaseFormFilterDoctrine
 
   public function getModelName()
   {
-    return 'EtapaRef';
+    return 'Departamentos';
   }
 
   public function getFields()
   {
     return array(
-      'id'     => 'Number',
-      'nombre' => 'Text',
+      'id_departamento' => 'Number',
+      'departamento'    => 'Text',
     );
   }
 }

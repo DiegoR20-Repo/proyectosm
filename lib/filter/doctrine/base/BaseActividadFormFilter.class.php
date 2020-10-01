@@ -13,7 +13,7 @@ abstract class BaseActividadFormFilter extends BaseFormFilterDoctrine
   public function setup()
   {
     $this->setWidgets(array(
-      'idarea'           => new sfWidgetFormDoctrineChoice(array('model' => $this->getRelatedModelName('AreaProduccion'), 'add_empty' => true)),
+      'idarea'           => new sfWidgetFormFilterInput(array('with_empty' => false)),
       'idusuario'        => new sfWidgetFormFilterInput(array('with_empty' => false)),
       'nombre'           => new sfWidgetFormFilterInput(array('with_empty' => false)),
       'descripcion'      => new sfWidgetFormFilterInput(),
@@ -24,7 +24,7 @@ abstract class BaseActividadFormFilter extends BaseFormFilterDoctrine
     ));
 
     $this->setValidators(array(
-      'idarea'           => new sfValidatorDoctrineChoice(array('required' => false, 'model' => $this->getRelatedModelName('AreaProduccion'), 'column' => 'id')),
+      'idarea'           => new sfValidatorSchemaFilter('text', new sfValidatorInteger(array('required' => false))),
       'idusuario'        => new sfValidatorSchemaFilter('text', new sfValidatorInteger(array('required' => false))),
       'nombre'           => new sfValidatorPass(array('required' => false)),
       'descripcion'      => new sfValidatorPass(array('required' => false)),
@@ -52,7 +52,7 @@ abstract class BaseActividadFormFilter extends BaseFormFilterDoctrine
   {
     return array(
       'id'               => 'Number',
-      'idarea'           => 'ForeignKey',
+      'idarea'           => 'Number',
       'idusuario'        => 'Number',
       'nombre'           => 'Text',
       'descripcion'      => 'Text',

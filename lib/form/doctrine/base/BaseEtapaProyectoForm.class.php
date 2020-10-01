@@ -16,8 +16,8 @@ abstract class BaseEtapaProyectoForm extends BaseFormDoctrine
   {
     $this->setWidgets(array(
       'id'          => new sfWidgetFormInputHidden(),
-      'idetaparef'  => new sfWidgetFormDoctrineChoice(array('model' => $this->getRelatedModelName('EtapaRef'), 'add_empty' => false)),
-      'idproyecto'  => new sfWidgetFormDoctrineChoice(array('model' => $this->getRelatedModelName('Proyecto'), 'add_empty' => false)),
+      'idetaparef'  => new sfWidgetFormInputText(),
+      'idproyecto'  => new sfWidgetFormInputText(),
       'informacion' => new sfWidgetFormTextarea(),
       'inicio'      => new sfWidgetFormDate(),
       'fin'         => new sfWidgetFormDate(),
@@ -25,8 +25,8 @@ abstract class BaseEtapaProyectoForm extends BaseFormDoctrine
 
     $this->setValidators(array(
       'id'          => new sfValidatorChoice(array('choices' => array($this->getObject()->get('id')), 'empty_value' => $this->getObject()->get('id'), 'required' => false)),
-      'idetaparef'  => new sfValidatorDoctrineChoice(array('model' => $this->getRelatedModelName('EtapaRef'))),
-      'idproyecto'  => new sfValidatorDoctrineChoice(array('model' => $this->getRelatedModelName('Proyecto'))),
+      'idetaparef'  => new sfValidatorInteger(),
+      'idproyecto'  => new sfValidatorInteger(),
       'informacion' => new sfValidatorString(array('max_length' => 300)),
       'inicio'      => new sfValidatorDate(),
       'fin'         => new sfValidatorDate(),

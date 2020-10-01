@@ -10,19 +10,13 @@ Doctrine_Manager::getInstance()->bindComponent('Proyecto', 'doctrine');
  * @property integer $id
  * @property string $nombre
  * @property string $descrpicion
- * @property Doctrine_Collection $Contacto
- * @property Doctrine_Collection $EtapaProyecto
  * 
- * @method integer             getId()            Returns the current record's "id" value
- * @method string              getNombre()        Returns the current record's "nombre" value
- * @method string              getDescrpicion()   Returns the current record's "descrpicion" value
- * @method Doctrine_Collection getContacto()      Returns the current record's "Contacto" collection
- * @method Doctrine_Collection getEtapaProyecto() Returns the current record's "EtapaProyecto" collection
- * @method Proyecto            setId()            Sets the current record's "id" value
- * @method Proyecto            setNombre()        Sets the current record's "nombre" value
- * @method Proyecto            setDescrpicion()   Sets the current record's "descrpicion" value
- * @method Proyecto            setContacto()      Sets the current record's "Contacto" collection
- * @method Proyecto            setEtapaProyecto() Sets the current record's "EtapaProyecto" collection
+ * @method integer  getId()          Returns the current record's "id" value
+ * @method string   getNombre()      Returns the current record's "nombre" value
+ * @method string   getDescrpicion() Returns the current record's "descrpicion" value
+ * @method Proyecto setId()          Sets the current record's "id" value
+ * @method Proyecto setNombre()      Sets the current record's "nombre" value
+ * @method Proyecto setDescrpicion() Sets the current record's "descrpicion" value
  * 
  * @package    proyectosm
  * @subpackage model
@@ -65,12 +59,6 @@ abstract class BaseProyecto extends sfDoctrineRecord
     public function setUp()
     {
         parent::setUp();
-        $this->hasMany('Contacto', array(
-             'local' => 'id',
-             'foreign' => 'idproyecto'));
-
-        $this->hasMany('EtapaProyecto', array(
-             'local' => 'id',
-             'foreign' => 'idproyecto'));
+        
     }
 }

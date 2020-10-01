@@ -13,8 +13,6 @@ Doctrine_Manager::getInstance()->bindComponent('EtapaProyecto', 'doctrine');
  * @property string $informacion
  * @property date $inicio
  * @property date $fin
- * @property Proyecto $Proyecto
- * @property EtapaRef $EtapaRef
  * 
  * @method integer       getId()          Returns the current record's "id" value
  * @method integer       getIdetaparef()  Returns the current record's "idetaparef" value
@@ -22,16 +20,12 @@ Doctrine_Manager::getInstance()->bindComponent('EtapaProyecto', 'doctrine');
  * @method string        getInformacIon() Returns the current record's "informacion" value
  * @method date          getInIcIo()      Returns the current record's "inicio" value
  * @method date          getFin()         Returns the current record's "fin" value
- * @method Proyecto      getProyecto()    Returns the current record's "Proyecto" value
- * @method EtapaRef      getEtapaRef()    Returns the current record's "EtapaRef" value
  * @method EtapaProyecto setId()          Sets the current record's "id" value
  * @method EtapaProyecto setIdetaparef()  Sets the current record's "idetaparef" value
  * @method EtapaProyecto setIdproyecto()  Sets the current record's "idproyecto" value
  * @method EtapaProyecto setInformacIon() Sets the current record's "informacion" value
  * @method EtapaProyecto setInIcIo()      Sets the current record's "inicio" value
  * @method EtapaProyecto setFin()         Sets the current record's "fin" value
- * @method EtapaProyecto setProyecto()    Sets the current record's "Proyecto" value
- * @method EtapaProyecto setEtapaRef()    Sets the current record's "EtapaRef" value
  * 
  * @package    proyectosm
  * @subpackage model
@@ -101,12 +95,6 @@ abstract class BaseEtapaProyecto extends sfDoctrineRecord
     public function setUp()
     {
         parent::setUp();
-        $this->hasOne('Proyecto', array(
-             'local' => 'idproyecto',
-             'foreign' => 'id'));
-
-        $this->hasOne('EtapaRef', array(
-             'local' => 'idetaparef',
-             'foreign' => 'id'));
+        
     }
 }

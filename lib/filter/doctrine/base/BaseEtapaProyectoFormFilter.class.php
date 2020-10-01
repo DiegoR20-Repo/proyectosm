@@ -13,16 +13,16 @@ abstract class BaseEtapaProyectoFormFilter extends BaseFormFilterDoctrine
   public function setup()
   {
     $this->setWidgets(array(
-      'idetaparef'  => new sfWidgetFormDoctrineChoice(array('model' => $this->getRelatedModelName('EtapaRef'), 'add_empty' => true)),
-      'idproyecto'  => new sfWidgetFormDoctrineChoice(array('model' => $this->getRelatedModelName('Proyecto'), 'add_empty' => true)),
+      'idetaparef'  => new sfWidgetFormFilterInput(array('with_empty' => false)),
+      'idproyecto'  => new sfWidgetFormFilterInput(array('with_empty' => false)),
       'informacion' => new sfWidgetFormFilterInput(array('with_empty' => false)),
       'inicio'      => new sfWidgetFormFilterDate(array('from_date' => new sfWidgetFormDate(), 'to_date' => new sfWidgetFormDate(), 'with_empty' => false)),
       'fin'         => new sfWidgetFormFilterDate(array('from_date' => new sfWidgetFormDate(), 'to_date' => new sfWidgetFormDate(), 'with_empty' => false)),
     ));
 
     $this->setValidators(array(
-      'idetaparef'  => new sfValidatorDoctrineChoice(array('required' => false, 'model' => $this->getRelatedModelName('EtapaRef'), 'column' => 'id')),
-      'idproyecto'  => new sfValidatorDoctrineChoice(array('required' => false, 'model' => $this->getRelatedModelName('Proyecto'), 'column' => 'id')),
+      'idetaparef'  => new sfValidatorSchemaFilter('text', new sfValidatorInteger(array('required' => false))),
+      'idproyecto'  => new sfValidatorSchemaFilter('text', new sfValidatorInteger(array('required' => false))),
       'informacion' => new sfValidatorPass(array('required' => false)),
       'inicio'      => new sfValidatorDateRange(array('required' => false, 'from_date' => new sfValidatorDate(array('required' => false)), 'to_date' => new sfValidatorDateTime(array('required' => false)))),
       'fin'         => new sfValidatorDateRange(array('required' => false, 'from_date' => new sfValidatorDate(array('required' => false)), 'to_date' => new sfValidatorDateTime(array('required' => false)))),
@@ -46,8 +46,8 @@ abstract class BaseEtapaProyectoFormFilter extends BaseFormFilterDoctrine
   {
     return array(
       'id'          => 'Number',
-      'idetaparef'  => 'ForeignKey',
-      'idproyecto'  => 'ForeignKey',
+      'idetaparef'  => 'Number',
+      'idproyecto'  => 'Number',
       'informacion' => 'Text',
       'inicio'      => 'Date',
       'fin'         => 'Date',

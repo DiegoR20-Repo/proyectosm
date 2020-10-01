@@ -9,14 +9,11 @@ Doctrine_Manager::getInstance()->bindComponent('EtapaRef', 'doctrine');
  * 
  * @property integer $id
  * @property string $nombre
- * @property Doctrine_Collection $EtapaProyecto
  * 
- * @method integer             getId()            Returns the current record's "id" value
- * @method string              getNombre()        Returns the current record's "nombre" value
- * @method Doctrine_Collection getEtapaProyecto() Returns the current record's "EtapaProyecto" collection
- * @method EtapaRef            setId()            Sets the current record's "id" value
- * @method EtapaRef            setNombre()        Sets the current record's "nombre" value
- * @method EtapaRef            setEtapaProyecto() Sets the current record's "EtapaProyecto" collection
+ * @method integer  getId()     Returns the current record's "id" value
+ * @method string   getNombre() Returns the current record's "nombre" value
+ * @method EtapaRef setId()     Sets the current record's "id" value
+ * @method EtapaRef setNombre() Sets the current record's "nombre" value
  * 
  * @package    proyectosm
  * @subpackage model
@@ -50,8 +47,6 @@ abstract class BaseEtapaRef extends sfDoctrineRecord
     public function setUp()
     {
         parent::setUp();
-        $this->hasMany('EtapaProyecto', array(
-             'local' => 'id',
-             'foreign' => 'idetaparef'));
+        
     }
 }

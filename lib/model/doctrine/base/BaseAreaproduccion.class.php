@@ -9,14 +9,11 @@ Doctrine_Manager::getInstance()->bindComponent('AreaProduccion', 'doctrine');
  * 
  * @property integer $id
  * @property string $nombre
- * @property Doctrine_Collection $Actividad
  * 
- * @method integer             getId()        Returns the current record's "id" value
- * @method string              getNombre()    Returns the current record's "nombre" value
- * @method Doctrine_Collection getActividad() Returns the current record's "Actividad" collection
- * @method AreaProduccion      setId()        Sets the current record's "id" value
- * @method AreaProduccion      setNombre()    Sets the current record's "nombre" value
- * @method AreaProduccion      setActividad() Sets the current record's "Actividad" collection
+ * @method integer        getId()     Returns the current record's "id" value
+ * @method string         getNombre() Returns the current record's "nombre" value
+ * @method AreaProduccion setId()     Sets the current record's "id" value
+ * @method AreaProduccion setNombre() Sets the current record's "nombre" value
  * 
  * @package    proyectosm
  * @subpackage model
@@ -50,8 +47,6 @@ abstract class BaseAreaProduccion extends sfDoctrineRecord
     public function setUp()
     {
         parent::setUp();
-        $this->hasMany('Actividad', array(
-             'local' => 'id',
-             'foreign' => 'idarea'));
+        
     }
 }
