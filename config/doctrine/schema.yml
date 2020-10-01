@@ -64,11 +64,6 @@ Actividad:
       primary: false
       notnull: true
       autoincrement: false
-  relations:
-    AreaProduccion:
-      local: idarea
-      foreign: id
-      type: one
 AreaProduccion:
   connection: doctrine
   tableName: area_produccion
@@ -86,11 +81,6 @@ AreaProduccion:
       primary: false
       notnull: true
       autoincrement: false
-  relations:
-    Actividad:
-      local: id
-      foreign: idarea
-      type: many
 Contacto:
   connection: doctrine
   tableName: contacto
@@ -143,11 +133,24 @@ Contacto:
       primary: false
       notnull: true
       autoincrement: false
-  relations:
-    Proyecto:
-      local: idproyecto
-      foreign: id
-      type: one
+Departamentos:
+  connection: doctrine
+  tableName: departamentos
+  columns:
+    id_departamento:
+      type: integer(4)
+      fixed: false
+      unsigned: true
+      primary: true
+      autoincrement: true
+    departamento:
+      type: string(255)
+      fixed: false
+      unsigned: false
+      primary: false
+      default: ''
+      notnull: true
+      autoincrement: false
 EtapaProyecto:
   connection: doctrine
   tableName: etapa_proyecto
@@ -193,15 +196,6 @@ EtapaProyecto:
       primary: false
       notnull: true
       autoincrement: false
-  relations:
-    Proyecto:
-      local: idproyecto
-      foreign: id
-      type: one
-    EtapaRef:
-      local: idetaparef
-      foreign: id
-      type: one
 EtapaRef:
   connection: doctrine
   tableName: etapa_ref
@@ -219,11 +213,38 @@ EtapaRef:
       primary: false
       notnull: true
       autoincrement: false
-  relations:
-    EtapaProyecto:
-      local: id
-      foreign: idetaparef
-      type: many
+Municipios:
+  connection: doctrine
+  tableName: municipios
+  columns:
+    id_municipio:
+      type: integer(4)
+      fixed: false
+      unsigned: true
+      primary: true
+      autoincrement: true
+    municipio:
+      type: string(255)
+      fixed: false
+      unsigned: false
+      primary: false
+      default: ''
+      notnull: true
+      autoincrement: false
+    estado:
+      type: integer(4)
+      fixed: false
+      unsigned: true
+      primary: false
+      notnull: true
+      autoincrement: false
+    departamento_id:
+      type: integer(4)
+      fixed: false
+      unsigned: true
+      primary: false
+      notnull: true
+      autoincrement: false
 Proyecto:
   connection: doctrine
   tableName: proyecto
@@ -248,12 +269,58 @@ Proyecto:
       primary: false
       notnull: true
       autoincrement: false
-  relations:
-    Contacto:
-      local: id
-      foreign: idproyecto
-      type: many
-    EtapaProyecto:
-      local: id
-      foreign: idproyecto
-      type: many
+Rol:
+  connection: doctrine
+  tableName: rol
+  columns:
+    id:
+      type: integer(4)
+      fixed: false
+      unsigned: false
+      primary: true
+      autoincrement: true
+    nombre:
+      type: string(50)
+      fixed: false
+      unsigned: false
+      primary: false
+      notnull: true
+      autoincrement: false
+Usuario:
+  connection: doctrine
+  tableName: usuario
+  columns:
+    id:
+      type: integer(4)
+      fixed: false
+      unsigned: false
+      primary: true
+      autoincrement: true
+    idareaproduccion:
+      type: integer(4)
+      fixed: false
+      unsigned: false
+      primary: false
+      notnull: false
+      autoincrement: false
+    nombre:
+      type: string(150)
+      fixed: false
+      unsigned: false
+      primary: false
+      notnull: true
+      autoincrement: false
+    telefono:
+      type: string(11)
+      fixed: false
+      unsigned: false
+      primary: false
+      notnull: true
+      autoincrement: false
+    rol:
+      type: integer(4)
+      fixed: false
+      unsigned: false
+      primary: false
+      notnull: true
+      autoincrement: false
